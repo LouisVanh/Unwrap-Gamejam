@@ -167,7 +167,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 112
@@ -185,7 +185,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Fuel: 0
-  Speed: 300
+  Speed: 30
   _trailVFX: {fileID: 3626958495479711255, guid: b52b307bb67500240b743b50fa4bc7df, type: 3}
   _trailPos: {fileID: 8015288418254821578}
   _trail: {fileID: 8015288418254821578}

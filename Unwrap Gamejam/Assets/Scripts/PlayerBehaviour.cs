@@ -19,6 +19,7 @@ public class PlayerBehaviour : MonoBehaviour
     private Fuel _fuel;
     private bool _isFlying = true; // turn to true on launch, just true now for testing
     private float _maxRotation = 5f;
+    private float _gravity = -6f;
     public bool IsOn = true;
 
     private void Start()
@@ -36,7 +37,7 @@ public class PlayerBehaviour : MonoBehaviour
     void Update()
     {
         //_rb.velocity = transform.forward * Speed;
-
+        _rb.AddForce(new Vector3(0, _gravity, 0), ForceMode.Acceleration);
         GatherInput();
         MoveRocket();
         RocketEngineOnOf();
@@ -53,10 +54,14 @@ public class PlayerBehaviour : MonoBehaviour
     private void FixedUpdate()
     {
         _elapsedTime = Time.fixedDeltaTime;
+        if (IsOn)
+        {
+            _rb.velocity = transform.forward * Speed;
 
-        Vector3 direction = transform.forward;
-        _moveDirection = Vector3.Normalize(direction) * Speed;
-        _rb.AddForce(_moveDirection, ForceMode.Impulse);
+        }
+        //Vector3 direction = transform.forward;
+        //_moveDirection = Vector3.Normalize(direction) * Speed;
+        //_rb.AddForce(_moveDirection, ForceMode.Impulse);
 
     }
     private void GatherInput()
@@ -80,7 +85,7 @@ public class PlayerBehaviour : MonoBehaviour
         if (IsOn)
         {
             _trail.SetActive(true);
-            Speed = 300;
+            Speed = 100;
         }
         if (!IsOn)
         {
