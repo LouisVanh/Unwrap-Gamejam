@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 6303238828648001682}
   - component: {fileID: 7629260706284021799}
   - component: {fileID: 4146961314660255596}
+  - component: {fileID: 6153546039224813398}
+  - component: {fileID: 518241537442568741}
   m_Layer: 0
   m_Name: Fuel pakage
   m_TagString: Untagged
@@ -69,6 +71,52 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _value: 10
   _type: 0
+--- !u!54 &6153546039224813398
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7296034106357173898}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 5
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &518241537442568741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7296034106357173898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eae8fb14954c8445b34f67f90cb5d32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _despawnTime: 5
+  _flashTime: 3
+  _flashInterval: 0.2
+  _flashIntervalAcelerator: 0
+  _minFlashInterval: 0.1
+  _flashItems:
+  - {fileID: 6837730688695866817}
 --- !u!1 &8372422033785747786
 GameObject:
   m_ObjectHideFlags: 0
