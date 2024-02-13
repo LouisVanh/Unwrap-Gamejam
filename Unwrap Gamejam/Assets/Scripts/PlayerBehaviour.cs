@@ -19,6 +19,7 @@ public class PlayerBehaviour : MonoBehaviour
     private Fuel _fuel;
     private bool _isFlying = true; // turn to true on launch, just true now for testing
     private float _maxRotation = 5f;
+    [SerializeField] private float _mouseSens; 
 
     private void Start()
     {
@@ -28,7 +29,7 @@ public class PlayerBehaviour : MonoBehaviour
         Cursor.visible= false;
         _fuel.AddFuel(100); //max fuel
         _trail = GameObject.Instantiate(_trailVFX, _trailPos.transform.position, transform.rotation, transform);
-        
+        _mouseSens = 5; //remove when we have final value, it's in the serializefield!
     }
 
 
@@ -54,8 +55,8 @@ public class PlayerBehaviour : MonoBehaviour
     }
     private void GatherInput()
     {
-        float moveX = Input.GetAxis("Mouse X") /2;
-        float moveY = Input.GetAxis("Mouse Y") /2;
+        float moveX = Input.GetAxis("Mouse X") / _mouseSens;
+        float moveY = Input.GetAxis("Mouse Y") /_mouseSens;
         _rotationX += moveX;
         _rotationY += moveY;
     }
