@@ -22,6 +22,7 @@ public class PlayerBehaviour : MonoBehaviour
     [SerializeField] private float _mouseSens; 
     private float _gravity = -6f;
     public bool IsOn = true;
+    private bool _engineOn = true;
 
     private void Awake()
     {
@@ -42,9 +43,15 @@ public class PlayerBehaviour : MonoBehaviour
         GatherInput();
         MoveRocket();
         RocketEngineOnOf();
-        if (Input.GetKeyDown(KeyCode.Space) && IsOn)
+        if (Input.GetKeyDown(KeyCode.Space) && _engineOn)
         {
             IsOn = false;
+            _engineOn = false;
+        }
+        else if(Input.GetKeyDown(KeyCode.Space) && !_engineOn)
+        {
+            IsOn = true;
+            _engineOn = true;
         }
         if (_isFlying)
         {
