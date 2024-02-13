@@ -135,9 +135,9 @@ GameObject:
   - component: {fileID: 89617276}
   - component: {fileID: 89617275}
   - component: {fileID: 89617274}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Plane
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -436,7 +436,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab9d2fba91e7a444996062038f985f1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FuelCount: 0
 --- !u!1001 &474255563
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -531,7 +530,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab9d2fba91e7a444996062038f985f1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FuelCount: 0
 --- !u!1 &1139668197
 GameObject:
   m_ObjectHideFlags: 0
