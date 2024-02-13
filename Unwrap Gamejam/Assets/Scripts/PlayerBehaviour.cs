@@ -10,6 +10,8 @@ public class PlayerBehaviour : MonoBehaviour
     [SerializeField] private GameObject _trailVFX;
     [SerializeField] private GameObject _trailPos;
     [SerializeField] private GameObject _trail;
+    [SerializeField] private GameObject _mesh;
+    private float _meshRotSpeed = 70;
     private Rigidbody _rb;
     private Vector3 _moveDirection;
     private Quaternion _moveRotation;
@@ -38,6 +40,8 @@ public class PlayerBehaviour : MonoBehaviour
 
     void Update()
     {
+        _mesh.transform.Rotate(0,0,_meshRotSpeed * Time.deltaTime);
+        Debug.Log(_meshRotSpeed);
         //_rb.velocity = transform.forward * Speed;
         _rb.AddForce(new Vector3(0, _gravity, 0), ForceMode.Acceleration);
         GatherInput();
@@ -56,7 +60,7 @@ public class PlayerBehaviour : MonoBehaviour
         if (_isFlying)
         {
             _fuel.AddFuel(-1 * Time.deltaTime);
-            Debug.Log($"do I have fuel?: {_fuel.HasFuel}");
+            //Debug.Log($"do I have fuel?: {_fuel.HasFuel}");
         }
     }
     private void FixedUpdate()
@@ -94,6 +98,7 @@ public class PlayerBehaviour : MonoBehaviour
         {
             _trail.SetActive(true);
             Speed = 100;
+            
         }
         if (!IsOn)
         {
