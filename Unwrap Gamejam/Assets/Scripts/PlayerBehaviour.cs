@@ -19,24 +19,31 @@ public class PlayerBehaviour : MonoBehaviour
     private Fuel _fuel;
     private bool _isFlying = true; // turn to true on launch, just true now for testing
     private float _maxRotation = 5f;
+    public bool IsOn = true;
 
     private void Start()
     {
         _rb = GetComponent<Rigidbody>();
         _fuel = GetComponent<Fuel>();
         Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible= false;
+        Cursor.visible = false;
         _fuel.AddFuel(100); //max fuel
         _trail = GameObject.Instantiate(_trailVFX, _trailPos.transform.position, transform.rotation, transform);
-        
+
     }
 
 
     void Update()
     {
         //_rb.velocity = transform.forward * Speed;
+
         GatherInput();
         MoveRocket();
+        RocketEngineOnOf();
+        if (Input.GetKeyDown(KeyCode.Space) && IsOn)
+        {
+            IsOn = false;
+        }
         if (_isFlying)
         {
             _fuel.AddFuel(-1 * Time.deltaTime);
@@ -54,8 +61,8 @@ public class PlayerBehaviour : MonoBehaviour
     }
     private void GatherInput()
     {
-        float moveX = Input.GetAxis("Mouse X") /2;
-        float moveY = Input.GetAxis("Mouse Y") /2;
+        float moveX = Input.GetAxis("Mouse X") / 2;
+        float moveY = Input.GetAxis("Mouse Y") / 2;
         _rotationX += moveX;
         _rotationY += moveY;
     }
@@ -67,5 +74,18 @@ public class PlayerBehaviour : MonoBehaviour
 
         Quaternion rotation = Quaternion.Lerp(_rb.rotation, toRot, percentage);
         _rb.rotation = rotation;
+    }
+    private void RocketEngineOnOf()
+    {
+        if (IsOn)
+        {
+            _trail.SetActive(true);
+            Speed = 300;
+        }
+        if (!IsOn)
+        {
+            _trail.SetActive(false);
+            Speed = 0;
+        }
     }
 }
