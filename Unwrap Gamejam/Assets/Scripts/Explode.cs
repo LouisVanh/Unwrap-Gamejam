@@ -23,9 +23,13 @@ public class Explode : MonoBehaviour
     {
         Debug.Log("BOOM");
         // vfx
-        Instantiate(_prefabSmall, this.transform.localPosition, Quaternion.identity);
-        Instantiate(_prefabBig, this.transform.localPosition, Quaternion.identity);
-        // cam shake
+        var big = Instantiate(_prefabSmall, this.transform.localPosition, Quaternion.identity);
+        big.transform.localScale = 100 * Vector3.one;
+        //maybe spawn multiple of these around it
+        var small = Instantiate(_prefabBig, this.transform.localPosition, Quaternion.identity);
+        small.transform.localScale = 5 * Vector3.one;
+
+        // cam shake (already here but more)
         // sound
         // explosion force
         // terrain deformation
