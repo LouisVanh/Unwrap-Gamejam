@@ -142,6 +142,7 @@ Transform:
   m_Children:
   - {fileID: 6464751364312382898}
   - {fileID: 5458326218943148373}
+  - {fileID: 5533217721362101310}
   m_Father: {fileID: 4864205642869289554}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &4962811016416019211
@@ -185,6 +186,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Fuel: 0
   Speed: 300
+  _trailVFX: {fileID: 3626958495479711255, guid: b52b307bb67500240b743b50fa4bc7df, type: 3}
+  _trailPos: {fileID: 8015288418254821578}
 --- !u!136 &8312084173643822847
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -283,6 +286,37 @@ Transform:
   - {fileID: 8819799668357343789}
   - {fileID: 680318851344884513}
   m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8015288418254821578
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5533217721362101310}
+  m_Layer: 0
+  m_Name: TrailVFXPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 7148428337604731935, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5533217721362101310
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8015288418254821578}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.029, z: -2.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8819799668357343789}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &4415065926538912093
 PrefabInstance:

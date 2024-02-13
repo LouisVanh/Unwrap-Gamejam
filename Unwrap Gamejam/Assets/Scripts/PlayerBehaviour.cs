@@ -7,6 +7,9 @@ public class PlayerBehaviour : MonoBehaviour
 {
     [SerializeField] public float Fuel;
     [SerializeField] private float Speed = 100f;
+    [SerializeField] private GameObject _trailVFX;
+    [SerializeField] private GameObject _trailPos;
+    [SerializeField] private GameObject _trail;
     private Rigidbody _rb;
     private Vector3 _moveDirection;
     private Quaternion _moveRotation;
@@ -24,6 +27,8 @@ public class PlayerBehaviour : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible= false;
         _fuel.AddFuel(100); //max fuel
+        _trail = GameObject.Instantiate(_trailVFX, _trailPos.transform.position, transform.rotation, transform);
+        
     }
 
 
