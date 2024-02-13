@@ -19,10 +19,11 @@ public class PlayerBehaviour : MonoBehaviour
     private Fuel _fuel;
     private bool _isFlying = true; // turn to true on launch, just true now for testing
     private float _maxRotation = 5f;
+    [SerializeField] private float _mouseSens; 
     private float _gravity = -6f;
     public bool IsOn = true;
 
-    private void Start()
+    private void Awake()
     {
         _rb = GetComponent<Rigidbody>();
         _fuel = GetComponent<Fuel>();
@@ -30,7 +31,7 @@ public class PlayerBehaviour : MonoBehaviour
         Cursor.visible = false;
         _fuel.AddFuel(100); //max fuel
         _trail = GameObject.Instantiate(_trailVFX, _trailPos.transform.position, transform.rotation, transform);
-
+        _mouseSens = 5; //remove when we have final value, it's in the serializefield!
     }
 
 

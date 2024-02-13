@@ -4,6 +4,13 @@ using UnityEngine;
 
 public class Explode : MonoBehaviour
 {
+    [SerializeField] private GameObject _prefabBig;
+    [SerializeField] private GameObject _prefabSmall;
+
+    private void Start()
+    {
+
+    }
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Ground")
@@ -16,6 +23,8 @@ public class Explode : MonoBehaviour
     {
         Debug.Log("BOOM");
         // vfx
+        Instantiate(_prefabSmall, this.transform.localPosition, Quaternion.identity);
+        Instantiate(_prefabBig, this.transform.localPosition, Quaternion.identity);
         // cam shake
         // sound
         // explosion force
