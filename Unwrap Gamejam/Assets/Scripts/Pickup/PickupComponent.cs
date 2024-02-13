@@ -31,9 +31,11 @@ public class PickupComponent : MonoBehaviour
         {
             case PickupType.Fuel:
                 OnAddFuel?.Invoke(_value);
+                Debug.Log("Fuel is added");
                 break;
             case PickupType.Payload:
                 OnAddPayload?.Invoke(_value);
+                Debug.Log("payload is added");
                 break;
             default:
                 break;
