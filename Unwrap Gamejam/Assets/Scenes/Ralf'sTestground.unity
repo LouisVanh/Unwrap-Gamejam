@@ -135,6 +135,10 @@ PrefabInstance:
       propertyPath: m_Mass
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 6153546039224813398, guid: 412d76fcab5c65b48b1ad0e00ae6ac87, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6303238828648001682, guid: 412d76fcab5c65b48b1ad0e00ae6ac87, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.861471
