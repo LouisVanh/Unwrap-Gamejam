@@ -175,6 +175,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_cliffB_large (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6776529478224178015, guid: 4133079e91a106245a2e4f53f3d35b74, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776529478224178015, guid: 4133079e91a106245a2e4f53f3d35b74, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -196,6 +204,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (95)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -263,6 +279,14 @@ PrefabInstance:
     - target: {fileID: 7390800398974627976, guid: f207aed88e3f1834e94c50cf8d5f1d90, type: 3}
       propertyPath: m_Name
       value: Monument_terrain_A
+      objectReference: {fileID: 0}
+    - target: {fileID: 7390800398974627976, guid: f207aed88e3f1834e94c50cf8d5f1d90, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7390800398974627976, guid: f207aed88e3f1834e94c50cf8d5f1d90, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7915838730118818354, guid: f207aed88e3f1834e94c50cf8d5f1d90, type: 3}
       propertyPath: m_LocalScale.y
@@ -412,6 +436,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_cliffe
       objectReference: {fileID: 0}
+    - target: {fileID: 5311466763800120217, guid: e6a99ae2d60e8f04f97d366ab2760bc0, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5311466763800120217, guid: e6a99ae2d60e8f04f97d366ab2760bc0, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -433,6 +465,14 @@ PrefabInstance:
     - target: {fileID: 3719248051328489092, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
       propertyPath: m_Name
       value: Monument_cliffC_large (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719248051328489092, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719248051328489092, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4095668483290811454, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
       propertyPath: m_LocalScale.x
@@ -513,6 +553,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_cliffA_large (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4455217394089763324, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 88.0216
@@ -579,6 +627,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -647,6 +703,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island_TerrainB (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -375.15366
@@ -703,6 +767,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -761,6 +833,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island_TerrainB (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -176.15364
@@ -817,6 +897,14 @@ PrefabInstance:
     - target: {fileID: 6252697732506696311, guid: d462ff810b25d76439f7c88d219d5660, type: 3}
       propertyPath: m_Name
       value: Monument_Thorn (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6252697732506696311, guid: d462ff810b25d76439f7c88d219d5660, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6252697732506696311, guid: d462ff810b25d76439f7c88d219d5660, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6741285943292190925, guid: d462ff810b25d76439f7c88d219d5660, type: 3}
       propertyPath: m_LocalScale.x
@@ -932,6 +1020,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_Bulbous_plant (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6476753358937235605, guid: 558672b87b88c80498809b5a530c7ac0, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476753358937235605, guid: 558672b87b88c80498809b5a530c7ac0, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -958,6 +1054,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1102,6 +1206,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_cliffA_large
       objectReference: {fileID: 0}
+    - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4455217394089763324, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.62575805
@@ -1171,6 +1283,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_Plant_A (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8264026529736871993, guid: b56af599af678874d99020ec5262cf60, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8264026529736871993, guid: b56af599af678874d99020ec5262cf60, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 8783260572841839235, guid: b56af599af678874d99020ec5262cf60, type: 3}
       propertyPath: m_LocalPosition.x
       value: 33.835884
@@ -1237,6 +1357,14 @@ PrefabInstance:
     - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
       propertyPath: m_Name
       value: Monument_cliffA_large (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4455217394089763324, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
       propertyPath: m_LocalScale.x
@@ -1359,6 +1487,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_cliffB_large
       objectReference: {fileID: 0}
+    - target: {fileID: 6776529478224178015, guid: 4133079e91a106245a2e4f53f3d35b74, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776529478224178015, guid: 4133079e91a106245a2e4f53f3d35b74, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1427,6 +1563,14 @@ PrefabInstance:
     - target: {fileID: 4455828647927873939, guid: e4141a8c1f55de74bbd8ddf8d7f01109, type: 3}
       propertyPath: m_Name
       value: Monument_small_rocks (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4455828647927873939, guid: e4141a8c1f55de74bbd8ddf8d7f01109, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4455828647927873939, guid: e4141a8c1f55de74bbd8ddf8d7f01109, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1502,6 +1646,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_small_rocks (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4455828647927873939, guid: e4141a8c1f55de74bbd8ddf8d7f01109, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4455828647927873939, guid: e4141a8c1f55de74bbd8ddf8d7f01109, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1518,6 +1670,14 @@ PrefabInstance:
     - target: {fileID: 4844995510027161681, guid: 3df1f06202cecdb45a6cd8cea0f72e9f, type: 3}
       propertyPath: m_Name
       value: Monument_Bulbous_plantB
+      objectReference: {fileID: 0}
+    - target: {fileID: 4844995510027161681, guid: 3df1f06202cecdb45a6cd8cea0f72e9f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4844995510027161681, guid: 3df1f06202cecdb45a6cd8cea0f72e9f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5221696252835023595, guid: 3df1f06202cecdb45a6cd8cea0f72e9f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1575,6 +1735,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1642,6 +1810,14 @@ PrefabInstance:
     - target: {fileID: 8264026529736871993, guid: b56af599af678874d99020ec5262cf60, type: 3}
       propertyPath: m_Name
       value: Monument_Plant_A
+      objectReference: {fileID: 0}
+    - target: {fileID: 8264026529736871993, guid: b56af599af678874d99020ec5262cf60, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8264026529736871993, guid: b56af599af678874d99020ec5262cf60, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 8783260572841839235, guid: b56af599af678874d99020ec5262cf60, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1757,6 +1933,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_cliffe
       objectReference: {fileID: 0}
+    - target: {fileID: 5311466763800120217, guid: e6a99ae2d60e8f04f97d366ab2760bc0, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5311466763800120217, guid: e6a99ae2d60e8f04f97d366ab2760bc0, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1831,6 +2015,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_small_rocks
       objectReference: {fileID: 0}
+    - target: {fileID: 4455828647927873939, guid: e4141a8c1f55de74bbd8ddf8d7f01109, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4455828647927873939, guid: e4141a8c1f55de74bbd8ddf8d7f01109, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1847,6 +2039,14 @@ PrefabInstance:
     - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
       propertyPath: m_Name
       value: Monument_cliffA_large (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4455217394089763324, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1910,6 +2110,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island_TerrainB (88)
       objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 612.5207
@@ -1966,6 +2174,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2029,6 +2245,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island_TerrainB (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 217.07109
@@ -2090,6 +2314,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (67)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2193,6 +2425,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_tower (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 751771064161696735, guid: e4c12614d6b600b4592ced2d18391204, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 751771064161696735, guid: e4c12614d6b600b4592ced2d18391204, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2250,6 +2490,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_Plant_C
       objectReference: {fileID: 0}
+    - target: {fileID: 2015907098374747240, guid: 97d17a99a6f95954081df9637706615e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2015907098374747240, guid: 97d17a99a6f95954081df9637706615e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2271,6 +2519,14 @@ PrefabInstance:
     - target: {fileID: 2465207867313310770, guid: b6aa29e815b6ca14aa1f2cb6e3e3f140, type: 3}
       propertyPath: m_Name
       value: Monument_dome
+      objectReference: {fileID: 0}
+    - target: {fileID: 2465207867313310770, guid: b6aa29e815b6ca14aa1f2cb6e3e3f140, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2465207867313310770, guid: b6aa29e815b6ca14aa1f2cb6e3e3f140, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 2989824809887929992, guid: b6aa29e815b6ca14aa1f2cb6e3e3f140, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2349,6 +2605,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island_TerrainB (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 612.5207
@@ -2405,6 +2669,14 @@ PrefabInstance:
     - target: {fileID: 7253586925338575751, guid: e523bd55a4614864e972b99625de1f3c, type: 3}
       propertyPath: m_Name
       value: Monument_cliffc (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7253586925338575751, guid: e523bd55a4614864e972b99625de1f3c, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7253586925338575751, guid: e523bd55a4614864e972b99625de1f3c, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 8062070382020598077, guid: e523bd55a4614864e972b99625de1f3c, type: 3}
       propertyPath: m_LocalScale.x
@@ -2475,6 +2747,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_cliffc
       objectReference: {fileID: 0}
+    - target: {fileID: 7253586925338575751, guid: e523bd55a4614864e972b99625de1f3c, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7253586925338575751, guid: e523bd55a4614864e972b99625de1f3c, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 8062070382020598077, guid: e523bd55a4614864e972b99625de1f3c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 82.78588
@@ -2536,6 +2816,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2629,6 +2917,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island_TerrainB (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -375.12885
@@ -2685,6 +2981,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2757,6 +3061,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2870,6 +3182,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_cliffC_large (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3719248051328489092, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719248051328489092, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4095668483290811454, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
       propertyPath: m_LocalPosition.x
       value: -94.90412
@@ -2972,6 +3292,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_cliffa (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7799573637589172773, guid: c68b537490be7244eb7d898402e72341, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7799573637589172773, guid: c68b537490be7244eb7d898402e72341, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2988,6 +3316,14 @@ PrefabInstance:
     - target: {fileID: 2597210419119542897, guid: 096b7fd340742a34ba6defee3548f21e, type: 3}
       propertyPath: m_Name
       value: Monument_cliffb
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597210419119542897, guid: 096b7fd340742a34ba6defee3548f21e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597210419119542897, guid: 096b7fd340742a34ba6defee3548f21e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3404991459053537483, guid: 096b7fd340742a34ba6defee3548f21e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3045,6 +3381,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (82)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3165,6 +3509,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_small_rocks (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4455828647927873939, guid: e4141a8c1f55de74bbd8ddf8d7f01109, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4455828647927873939, guid: e4141a8c1f55de74bbd8ddf8d7f01109, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3181,6 +3533,14 @@ PrefabInstance:
     - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
       propertyPath: m_Name
       value: Monument_cliffA_large (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4455217394089763324, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
       propertyPath: m_LocalScale.x
@@ -3291,6 +3651,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_Plant_C (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2015907098374747240, guid: 97d17a99a6f95954081df9637706615e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2015907098374747240, guid: 97d17a99a6f95954081df9637706615e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3317,6 +3685,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (80)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3427,6 +3803,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_small_rocks (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4455828647927873939, guid: e4141a8c1f55de74bbd8ddf8d7f01109, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4455828647927873939, guid: e4141a8c1f55de74bbd8ddf8d7f01109, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3443,6 +3827,14 @@ PrefabInstance:
     - target: {fileID: 8264026529736871993, guid: b56af599af678874d99020ec5262cf60, type: 3}
       propertyPath: m_Name
       value: Monument_Plant_A (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8264026529736871993, guid: b56af599af678874d99020ec5262cf60, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8264026529736871993, guid: b56af599af678874d99020ec5262cf60, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 8783260572841839235, guid: b56af599af678874d99020ec5262cf60, type: 3}
       propertyPath: m_LocalScale.x
@@ -3558,6 +3950,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_Grass
       objectReference: {fileID: 0}
+    - target: {fileID: 6639382576390845502, guid: 1952cc623b03ff544aec0525b79cbb7d, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6639382576390845502, guid: 1952cc623b03ff544aec0525b79cbb7d, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3574,6 +3974,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (87)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3637,6 +4045,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island_TerrainB (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 315.0454
@@ -3693,6 +4109,14 @@ PrefabInstance:
     - target: {fileID: 8264026529736871993, guid: b56af599af678874d99020ec5262cf60, type: 3}
       propertyPath: m_Name
       value: Monument_Plant_A
+      objectReference: {fileID: 0}
+    - target: {fileID: 8264026529736871993, guid: b56af599af678874d99020ec5262cf60, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8264026529736871993, guid: b56af599af678874d99020ec5262cf60, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 8783260572841839235, guid: b56af599af678874d99020ec5262cf60, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3760,6 +4184,14 @@ PrefabInstance:
     - target: {fileID: 2597210419119542897, guid: 096b7fd340742a34ba6defee3548f21e, type: 3}
       propertyPath: m_Name
       value: Monument_cliffb (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597210419119542897, guid: 096b7fd340742a34ba6defee3548f21e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597210419119542897, guid: 096b7fd340742a34ba6defee3548f21e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3404991459053537483, guid: 096b7fd340742a34ba6defee3548f21e, type: 3}
       propertyPath: m_LocalScale.x
@@ -3830,6 +4262,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island_TerrainB (91)
       objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 612.49585
@@ -3886,6 +4326,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4011,6 +4459,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_Bulbous_plant (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6476753358937235605, guid: 558672b87b88c80498809b5a530c7ac0, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476753358937235605, guid: 558672b87b88c80498809b5a530c7ac0, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4027,6 +4483,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4125,6 +4589,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_Bulbous_plant (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6476753358937235605, guid: 558672b87b88c80498809b5a530c7ac0, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476753358937235605, guid: 558672b87b88c80498809b5a530c7ac0, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4146,6 +4618,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4256,6 +4736,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_cliffB_large (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6776529478224178015, guid: 4133079e91a106245a2e4f53f3d35b74, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776529478224178015, guid: 4133079e91a106245a2e4f53f3d35b74, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4272,6 +4760,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4335,6 +4831,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island_TerrainB (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -473.62885
@@ -4391,6 +4895,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4506,6 +5018,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_pipe (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 799675911701724067, guid: 7d4d6d9d10986474093c6b1019ffe749, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 799675911701724067, guid: 7d4d6d9d10986474093c6b1019ffe749, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4522,6 +5042,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (75)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4595,6 +5123,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island_TerrainB (79)
       objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 514.0206
@@ -4652,6 +5188,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island_TerrainB (85)
       objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 414.54538
@@ -4708,6 +5252,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4781,6 +5333,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_terrain_A (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7390800398974627976, guid: f207aed88e3f1834e94c50cf8d5f1d90, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7390800398974627976, guid: f207aed88e3f1834e94c50cf8d5f1d90, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7915838730118818354, guid: f207aed88e3f1834e94c50cf8d5f1d90, type: 3}
       propertyPath: m_LocalPosition.x
       value: 91.79588
@@ -4837,6 +5397,14 @@ PrefabInstance:
     - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
       propertyPath: m_Name
       value: Monument_cliffA_large
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4455217394089763324, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4904,6 +5472,14 @@ PrefabInstance:
     - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
       propertyPath: m_Name
       value: Monument_cliffA_large (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4455217394089763324, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
       propertyPath: m_LocalScale.x
@@ -4979,6 +5555,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island_TerrainB (83)
       objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 512.9959
@@ -5035,6 +5619,14 @@ PrefabInstance:
     - target: {fileID: 6252697732506696311, guid: d462ff810b25d76439f7c88d219d5660, type: 3}
       propertyPath: m_Name
       value: Monument_Thorn (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6252697732506696311, guid: d462ff810b25d76439f7c88d219d5660, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6252697732506696311, guid: d462ff810b25d76439f7c88d219d5660, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6741285943292190925, guid: d462ff810b25d76439f7c88d219d5660, type: 3}
       propertyPath: m_LocalScale.x
@@ -5104,6 +5696,14 @@ PrefabInstance:
     - target: {fileID: 2597210419119542897, guid: 096b7fd340742a34ba6defee3548f21e, type: 3}
       propertyPath: m_Name
       value: Monument_cliffb
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597210419119542897, guid: 096b7fd340742a34ba6defee3548f21e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597210419119542897, guid: 096b7fd340742a34ba6defee3548f21e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3404991459053537483, guid: 096b7fd340742a34ba6defee3548f21e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5228,6 +5828,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_tower (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 751771064161696735, guid: e4c12614d6b600b4592ced2d18391204, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 751771064161696735, guid: e4c12614d6b600b4592ced2d18391204, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5249,6 +5857,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5306,6 +5922,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (86)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5368,6 +5992,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (94)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5466,6 +6098,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_Plant_B (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5494048798216926131, guid: e174ff6b4f864674ba2113c9bed2b1b8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5494048798216926131, guid: e174ff6b4f864674ba2113c9bed2b1b8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5487,6 +6127,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5597,6 +6245,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_Grass (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6639382576390845502, guid: 1952cc623b03ff544aec0525b79cbb7d, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6639382576390845502, guid: 1952cc623b03ff544aec0525b79cbb7d, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5613,6 +6269,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5671,6 +6335,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island_TerrainB (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 217.07109
@@ -5728,6 +6400,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island_TerrainB (89)
       objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 612.5207
@@ -5784,6 +6464,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (90)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5886,6 +6574,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_terrain_B (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5742189843375652405, guid: 5ee5dd06caa7b32469a58e666175a2b9, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5742189843375652405, guid: 5ee5dd06caa7b32469a58e666175a2b9, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5907,6 +6603,14 @@ PrefabInstance:
     - target: {fileID: 3719248051328489092, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
       propertyPath: m_Name
       value: Monument_cliffC_large
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719248051328489092, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719248051328489092, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4095668483290811454, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5969,6 +6673,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (84)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6067,6 +6779,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_Plant_C (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2015907098374747240, guid: 97d17a99a6f95954081df9637706615e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2015907098374747240, guid: 97d17a99a6f95954081df9637706615e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6134,6 +6854,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_cliffd
       objectReference: {fileID: 0}
+    - target: {fileID: 8702741310030777596, guid: b7b84e91ec52e3f4b9fa5c979b7a2154, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8702741310030777596, guid: b7b84e91ec52e3f4b9fa5c979b7a2154, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6150,6 +6878,14 @@ PrefabInstance:
     - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
       propertyPath: m_Name
       value: Monument_cliffA_large (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4455217394089763324, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
       propertyPath: m_LocalScale.x
@@ -6230,6 +6966,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_cliffC_large
       objectReference: {fileID: 0}
+    - target: {fileID: 3719248051328489092, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719248051328489092, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4095668483290811454, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
       propertyPath: m_LocalPosition.x
       value: -129.70412
@@ -6292,6 +7036,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island_TerrainB (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -80.40412
@@ -6348,6 +7100,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6446,6 +7206,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_cliffB_large (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6776529478224178015, guid: 4133079e91a106245a2e4f53f3d35b74, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776529478224178015, guid: 4133079e91a106245a2e4f53f3d35b74, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6477,6 +7245,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (71)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6580,6 +7356,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_speederC
       objectReference: {fileID: 0}
+    - target: {fileID: 6504489968295951142, guid: 8dd91494f0c1d3d4ca39c532d6120e3e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6504489968295951142, guid: 8dd91494f0c1d3d4ca39c532d6120e3e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6657,6 +7441,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_cliffB_large (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6776529478224178015, guid: 4133079e91a106245a2e4f53f3d35b74, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776529478224178015, guid: 4133079e91a106245a2e4f53f3d35b74, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6678,6 +7470,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6781,6 +7581,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_small_rocks (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4455828647927873939, guid: e4141a8c1f55de74bbd8ddf8d7f01109, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4455828647927873939, guid: e4141a8c1f55de74bbd8ddf8d7f01109, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6797,6 +7605,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6855,6 +7671,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island_TerrainB (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -473.60413
@@ -6912,6 +7736,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_cliffc (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7253586925338575751, guid: e523bd55a4614864e972b99625de1f3c, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7253586925338575751, guid: e523bd55a4614864e972b99625de1f3c, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 8062070382020598077, guid: e523bd55a4614864e972b99625de1f3c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 82.10514
@@ -6968,6 +7800,14 @@ PrefabInstance:
     - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
       propertyPath: m_Name
       value: Monument_cliffA_large (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4455217394089763324, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7041,6 +7881,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_Thorn
       objectReference: {fileID: 0}
+    - target: {fileID: 6252697732506696311, guid: d462ff810b25d76439f7c88d219d5660, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6252697732506696311, guid: d462ff810b25d76439f7c88d219d5660, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6741285943292190925, guid: d462ff810b25d76439f7c88d219d5660, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.054119
@@ -7098,6 +7946,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island_TerrainB (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 217.09589
@@ -7154,6 +8010,14 @@ PrefabInstance:
     - target: {fileID: 6252697732506696311, guid: d462ff810b25d76439f7c88d219d5660, type: 3}
       propertyPath: m_Name
       value: Monument_Thorn (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6252697732506696311, guid: d462ff810b25d76439f7c88d219d5660, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6252697732506696311, guid: d462ff810b25d76439f7c88d219d5660, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6741285943292190925, guid: d462ff810b25d76439f7c88d219d5660, type: 3}
       propertyPath: m_LocalScale.x
@@ -7224,6 +8088,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island_TerrainB (74)
       objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 413.49588
@@ -7281,6 +8153,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island_TerrainB (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -374.12894
@@ -7337,6 +8217,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7447,6 +8335,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_Grass (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6639382576390845502, guid: 1952cc623b03ff544aec0525b79cbb7d, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6639382576390845502, guid: 1952cc623b03ff544aec0525b79cbb7d, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7524,6 +8420,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_cliffd (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8702741310030777596, guid: b7b84e91ec52e3f4b9fa5c979b7a2154, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8702741310030777596, guid: b7b84e91ec52e3f4b9fa5c979b7a2154, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7545,6 +8449,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7608,6 +8520,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island_TerrainB (77)
       objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 514.0454
@@ -7665,6 +8585,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island_TerrainB (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -80.37939
@@ -7721,6 +8649,14 @@ PrefabInstance:
     - target: {fileID: 2597210419119542897, guid: 096b7fd340742a34ba6defee3548f21e, type: 3}
       propertyPath: m_Name
       value: Monument_cliffb (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597210419119542897, guid: 096b7fd340742a34ba6defee3548f21e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597210419119542897, guid: 096b7fd340742a34ba6defee3548f21e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3404991459053537483, guid: 096b7fd340742a34ba6defee3548f21e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7819,6 +8755,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_tower (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 751771064161696735, guid: e4c12614d6b600b4592ced2d18391204, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 751771064161696735, guid: e4c12614d6b600b4592ced2d18391204, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7840,6 +8784,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7903,6 +8855,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_cliffc (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7253586925338575751, guid: e523bd55a4614864e972b99625de1f3c, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7253586925338575751, guid: e523bd55a4614864e972b99625de1f3c, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 8062070382020598077, guid: e523bd55a4614864e972b99625de1f3c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.0383773
@@ -7964,6 +8924,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8027,6 +8995,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_cliffC_large (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3719248051328489092, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719248051328489092, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4095668483290811454, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
       propertyPath: m_LocalPosition.x
       value: -43.50412
@@ -8084,6 +9060,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_cliffA_large (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4455217394089763324, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 31.69588
@@ -8140,6 +9124,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (72)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8358,6 +9350,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_cliffB_large (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6776529478224178015, guid: 4133079e91a106245a2e4f53f3d35b74, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776529478224178015, guid: 4133079e91a106245a2e4f53f3d35b74, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8384,6 +9384,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8447,6 +9455,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island_TerrainB (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -374.10416
@@ -8503,6 +9519,14 @@ PrefabInstance:
     - target: {fileID: 8264026529736871993, guid: b56af599af678874d99020ec5262cf60, type: 3}
       propertyPath: m_Name
       value: Monument_Plant_A (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8264026529736871993, guid: b56af599af678874d99020ec5262cf60, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8264026529736871993, guid: b56af599af678874d99020ec5262cf60, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 8783260572841839235, guid: b56af599af678874d99020ec5262cf60, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8571,6 +9595,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island_TerrainB (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -275.65366
@@ -8627,6 +9659,14 @@ PrefabInstance:
     - target: {fileID: 3719248051328489092, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
       propertyPath: m_Name
       value: Monument_cliffC_large (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719248051328489092, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719248051328489092, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4095668483290811454, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8810,6 +9850,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_Plant_A (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8264026529736871993, guid: b56af599af678874d99020ec5262cf60, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8264026529736871993, guid: b56af599af678874d99020ec5262cf60, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 8783260572841839235, guid: b56af599af678874d99020ec5262cf60, type: 3}
       propertyPath: m_LocalPosition.x
       value: 108.24588
@@ -8919,6 +9967,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_cliffB_large (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6776529478224178015, guid: 4133079e91a106245a2e4f53f3d35b74, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776529478224178015, guid: 4133079e91a106245a2e4f53f3d35b74, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8945,6 +10001,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9007,6 +10071,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (92)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9074,6 +10146,14 @@ PrefabInstance:
     - target: {fileID: 3719248051328489092, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
       propertyPath: m_Name
       value: Monument_cliffC_large (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719248051328489092, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719248051328489092, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4095668483290811454, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
       propertyPath: m_LocalScale.x
@@ -9143,6 +10223,14 @@ PrefabInstance:
     - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
       propertyPath: m_Name
       value: Monument_cliffA_large (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4455217394089763324, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
       propertyPath: m_LocalScale.x
@@ -9225,9 +10313,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1209582204}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Scene
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9499,6 +10587,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island_TerrainB (70)
       objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 612.49585
@@ -9613,6 +10709,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_Plant_C
       objectReference: {fileID: 0}
+    - target: {fileID: 2015907098374747240, guid: 97d17a99a6f95954081df9637706615e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2015907098374747240, guid: 97d17a99a6f95954081df9637706615e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9629,6 +10733,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9686,6 +10798,14 @@ PrefabInstance:
     - target: {fileID: 7390800398974627976, guid: f207aed88e3f1834e94c50cf8d5f1d90, type: 3}
       propertyPath: m_Name
       value: Monument_terrain_A (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7390800398974627976, guid: f207aed88e3f1834e94c50cf8d5f1d90, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7390800398974627976, guid: f207aed88e3f1834e94c50cf8d5f1d90, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7915838730118818354, guid: f207aed88e3f1834e94c50cf8d5f1d90, type: 3}
       propertyPath: m_LocalScale.x
@@ -9766,6 +10886,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island_TerrainB (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -176.15364
@@ -9822,6 +10950,14 @@ PrefabInstance:
     - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
       propertyPath: m_Name
       value: Monument_cliffA_large (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4455217394089763324, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
       propertyPath: m_LocalScale.x
@@ -9932,6 +11068,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_cliffe (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5311466763800120217, guid: e6a99ae2d60e8f04f97d366ab2760bc0, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5311466763800120217, guid: e6a99ae2d60e8f04f97d366ab2760bc0, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9988,6 +11132,14 @@ PrefabInstance:
     - target: {fileID: 5494048798216926131, guid: e174ff6b4f864674ba2113c9bed2b1b8, type: 3}
       propertyPath: m_Name
       value: Monument_Plant_B
+      objectReference: {fileID: 0}
+    - target: {fileID: 5494048798216926131, guid: e174ff6b4f864674ba2113c9bed2b1b8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5494048798216926131, guid: e174ff6b4f864674ba2113c9bed2b1b8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10055,6 +11207,14 @@ PrefabInstance:
     - target: {fileID: 6639382576390845502, guid: 1952cc623b03ff544aec0525b79cbb7d, type: 3}
       propertyPath: m_Name
       value: Monument_Grass
+      objectReference: {fileID: 0}
+    - target: {fileID: 6639382576390845502, guid: 1952cc623b03ff544aec0525b79cbb7d, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6639382576390845502, guid: 1952cc623b03ff544aec0525b79cbb7d, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10125,6 +11285,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_pipe (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 799675911701724067, guid: 7d4d6d9d10986474093c6b1019ffe749, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 799675911701724067, guid: 7d4d6d9d10986474093c6b1019ffe749, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10186,6 +11354,14 @@ PrefabInstance:
     - target: {fileID: 6476753358937235605, guid: 558672b87b88c80498809b5a530c7ac0, type: 3}
       propertyPath: m_Name
       value: Monument_Bulbous_plant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476753358937235605, guid: 558672b87b88c80498809b5a530c7ac0, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476753358937235605, guid: 558672b87b88c80498809b5a530c7ac0, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10255,6 +11431,14 @@ PrefabInstance:
     - target: {fileID: 7799573637589172773, guid: c68b537490be7244eb7d898402e72341, type: 3}
       propertyPath: m_Name
       value: Monument_cliffa
+      objectReference: {fileID: 0}
+    - target: {fileID: 7799573637589172773, guid: c68b537490be7244eb7d898402e72341, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7799573637589172773, guid: c68b537490be7244eb7d898402e72341, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10328,6 +11512,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_Bulbous_plant (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6476753358937235605, guid: 558672b87b88c80498809b5a530c7ac0, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476753358937235605, guid: 558672b87b88c80498809b5a530c7ac0, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10384,6 +11576,14 @@ PrefabInstance:
     - target: {fileID: 6776529478224178015, guid: 4133079e91a106245a2e4f53f3d35b74, type: 3}
       propertyPath: m_Name
       value: Monument_cliffB_large (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776529478224178015, guid: 4133079e91a106245a2e4f53f3d35b74, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776529478224178015, guid: 4133079e91a106245a2e4f53f3d35b74, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10442,6 +11642,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_cliffe (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5311466763800120217, guid: e6a99ae2d60e8f04f97d366ab2760bc0, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5311466763800120217, guid: e6a99ae2d60e8f04f97d366ab2760bc0, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10463,6 +11671,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (81)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10531,6 +11747,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island_TerrainB (69)
       objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 612.5207
@@ -10587,6 +11811,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10650,6 +11882,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island_TerrainB (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -176.12885
@@ -10706,6 +11946,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10814,6 +12062,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_cliffd
       objectReference: {fileID: 0}
+    - target: {fileID: 8702741310030777596, guid: b7b84e91ec52e3f4b9fa5c979b7a2154, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8702741310030777596, guid: b7b84e91ec52e3f4b9fa5c979b7a2154, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10888,6 +12144,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_Entrance
       objectReference: {fileID: 0}
+    - target: {fileID: 896339864539353890, guid: dee80b264edb31844aa3719de83417ad, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 896339864539353890, guid: dee80b264edb31844aa3719de83417ad, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10924,6 +12188,14 @@ PrefabInstance:
     - target: {fileID: 3719248051328489092, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
       propertyPath: m_Name
       value: Monument_cliffC_large
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719248051328489092, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719248051328489092, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4095668483290811454, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
       propertyPath: m_LocalScale.x
@@ -11023,6 +12295,14 @@ PrefabInstance:
     - target: {fileID: 4844995510027161681, guid: 3df1f06202cecdb45a6cd8cea0f72e9f, type: 3}
       propertyPath: m_Name
       value: Monument_Bulbous_plantB
+      objectReference: {fileID: 0}
+    - target: {fileID: 4844995510027161681, guid: 3df1f06202cecdb45a6cd8cea0f72e9f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4844995510027161681, guid: 3df1f06202cecdb45a6cd8cea0f72e9f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5221696252835023595, guid: 3df1f06202cecdb45a6cd8cea0f72e9f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11137,6 +12417,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_tower (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 751771064161696735, guid: e4c12614d6b600b4592ced2d18391204, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 751771064161696735, guid: e4c12614d6b600b4592ced2d18391204, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11198,6 +12486,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_terrain_B
       objectReference: {fileID: 0}
+    - target: {fileID: 5742189843375652405, guid: 5ee5dd06caa7b32469a58e666175a2b9, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5742189843375652405, guid: 5ee5dd06caa7b32469a58e666175a2b9, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11229,6 +12525,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11286,6 +12590,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11389,6 +12701,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_cliffB_large (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6776529478224178015, guid: 4133079e91a106245a2e4f53f3d35b74, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776529478224178015, guid: 4133079e91a106245a2e4f53f3d35b74, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11451,6 +12771,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_cliffe (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5311466763800120217, guid: e6a99ae2d60e8f04f97d366ab2760bc0, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5311466763800120217, guid: e6a99ae2d60e8f04f97d366ab2760bc0, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11467,6 +12795,14 @@ PrefabInstance:
     - target: {fileID: 7253586925338575751, guid: e523bd55a4614864e972b99625de1f3c, type: 3}
       propertyPath: m_Name
       value: Monument_cliffc
+      objectReference: {fileID: 0}
+    - target: {fileID: 7253586925338575751, guid: e523bd55a4614864e972b99625de1f3c, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7253586925338575751, guid: e523bd55a4614864e972b99625de1f3c, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 8062070382020598077, guid: e523bd55a4614864e972b99625de1f3c, type: 3}
       propertyPath: m_LocalScale.x
@@ -11536,6 +12872,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11634,6 +12978,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_Plant_B (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5494048798216926131, guid: e174ff6b4f864674ba2113c9bed2b1b8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5494048798216926131, guid: e174ff6b4f864674ba2113c9bed2b1b8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11655,6 +13007,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11763,6 +13123,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_cliffB_large
       objectReference: {fileID: 0}
+    - target: {fileID: 6776529478224178015, guid: 4133079e91a106245a2e4f53f3d35b74, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776529478224178015, guid: 4133079e91a106245a2e4f53f3d35b74, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11779,6 +13147,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11836,6 +13212,14 @@ PrefabInstance:
     - target: {fileID: 4844995510027161681, guid: 3df1f06202cecdb45a6cd8cea0f72e9f, type: 3}
       propertyPath: m_Name
       value: Monument_Bulbous_plantB (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4844995510027161681, guid: 3df1f06202cecdb45a6cd8cea0f72e9f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4844995510027161681, guid: 3df1f06202cecdb45a6cd8cea0f72e9f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5221696252835023595, guid: 3df1f06202cecdb45a6cd8cea0f72e9f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11934,6 +13318,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_small_rocks (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4455828647927873939, guid: e4141a8c1f55de74bbd8ddf8d7f01109, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4455828647927873939, guid: e4141a8c1f55de74bbd8ddf8d7f01109, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12013,6 +13405,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_cliffa (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7799573637589172773, guid: c68b537490be7244eb7d898402e72341, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7799573637589172773, guid: c68b537490be7244eb7d898402e72341, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12044,6 +13444,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12127,6 +13535,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island_TerrainB (76)
       objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 514.0454
@@ -12183,6 +13599,14 @@ PrefabInstance:
     - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
       propertyPath: m_Name
       value: Monument_cliffA_large (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4455217394089763324, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12250,6 +13674,14 @@ PrefabInstance:
     - target: {fileID: 7253586925338575751, guid: e523bd55a4614864e972b99625de1f3c, type: 3}
       propertyPath: m_Name
       value: Monument_cliffc (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7253586925338575751, guid: e523bd55a4614864e972b99625de1f3c, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7253586925338575751, guid: e523bd55a4614864e972b99625de1f3c, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 8062070382020598077, guid: e523bd55a4614864e972b99625de1f3c, type: 3}
       propertyPath: m_LocalScale.x
@@ -12319,6 +13751,14 @@ PrefabInstance:
     - target: {fileID: 4844995510027161681, guid: 3df1f06202cecdb45a6cd8cea0f72e9f, type: 3}
       propertyPath: m_Name
       value: Monument_Bulbous_plantB (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4844995510027161681, guid: 3df1f06202cecdb45a6cd8cea0f72e9f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4844995510027161681, guid: 3df1f06202cecdb45a6cd8cea0f72e9f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5221696252835023595, guid: 3df1f06202cecdb45a6cd8cea0f72e9f, type: 3}
       propertyPath: m_LocalScale.x
@@ -12429,6 +13869,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_Plant_C
       objectReference: {fileID: 0}
+    - target: {fileID: 2015907098374747240, guid: 97d17a99a6f95954081df9637706615e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2015907098374747240, guid: 97d17a99a6f95954081df9637706615e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12445,6 +13893,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12508,6 +13964,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island_TerrainB (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -176.12885
@@ -12565,6 +14029,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island_TerrainB (78)
       objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 514.0206
@@ -12621,6 +14093,14 @@ PrefabInstance:
     - target: {fileID: 5169507738182606294, guid: 558d1bd4ebe1b8c469d48408f4a836bf, type: 3}
       propertyPath: m_Name
       value: Monument_speeder
+      objectReference: {fileID: 0}
+    - target: {fileID: 5169507738182606294, guid: 558d1bd4ebe1b8c469d48408f4a836bf, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5169507738182606294, guid: 558d1bd4ebe1b8c469d48408f4a836bf, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5545645600243025772, guid: 558d1bd4ebe1b8c469d48408f4a836bf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12731,6 +14211,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_Grass (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6639382576390845502, guid: 1952cc623b03ff544aec0525b79cbb7d, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6639382576390845502, guid: 1952cc623b03ff544aec0525b79cbb7d, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12757,6 +14245,14 @@ PrefabInstance:
     - target: {fileID: 2597210419119542897, guid: 096b7fd340742a34ba6defee3548f21e, type: 3}
       propertyPath: m_Name
       value: Monument_cliffb (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597210419119542897, guid: 096b7fd340742a34ba6defee3548f21e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597210419119542897, guid: 096b7fd340742a34ba6defee3548f21e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3404991459053537483, guid: 096b7fd340742a34ba6defee3548f21e, type: 3}
       propertyPath: m_LocalScale.x
@@ -12867,6 +14363,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_Plant_B
       objectReference: {fileID: 0}
+    - target: {fileID: 5494048798216926131, guid: e174ff6b4f864674ba2113c9bed2b1b8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5494048798216926131, guid: e174ff6b4f864674ba2113c9bed2b1b8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12924,6 +14428,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_small_rocks (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4455828647927873939, guid: e4141a8c1f55de74bbd8ddf8d7f01109, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4455828647927873939, guid: e4141a8c1f55de74bbd8ddf8d7f01109, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12945,6 +14457,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13008,6 +14528,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_cliffb
       objectReference: {fileID: 0}
+    - target: {fileID: 2597210419119542897, guid: 096b7fd340742a34ba6defee3548f21e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597210419119542897, guid: 096b7fd340742a34ba6defee3548f21e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 3404991459053537483, guid: 096b7fd340742a34ba6defee3548f21e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 38.255882
@@ -13070,6 +14598,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island_TerrainB (73)
       objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 413.5207
@@ -13131,6 +14667,14 @@ PrefabInstance:
     - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
       propertyPath: m_Name
       value: Monument_cliffA_large
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4455217394089763324, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13229,6 +14773,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_Entrance (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 896339864539353890, guid: dee80b264edb31844aa3719de83417ad, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 896339864539353890, guid: dee80b264edb31844aa3719de83417ad, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13291,6 +14843,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_tower
       objectReference: {fileID: 0}
+    - target: {fileID: 751771064161696735, guid: e4c12614d6b600b4592ced2d18391204, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 751771064161696735, guid: e4c12614d6b600b4592ced2d18391204, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13312,6 +14872,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13379,6 +14947,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13482,6 +15058,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_cliffe (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5311466763800120217, guid: e6a99ae2d60e8f04f97d366ab2760bc0, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5311466763800120217, guid: e6a99ae2d60e8f04f97d366ab2760bc0, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13513,6 +15097,14 @@ PrefabInstance:
     - target: {fileID: 6252697732506696311, guid: d462ff810b25d76439f7c88d219d5660, type: 3}
       propertyPath: m_Name
       value: Monument_Thorn
+      objectReference: {fileID: 0}
+    - target: {fileID: 6252697732506696311, guid: d462ff810b25d76439f7c88d219d5660, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6252697732506696311, guid: d462ff810b25d76439f7c88d219d5660, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6741285943292190925, guid: d462ff810b25d76439f7c88d219d5660, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13575,6 +15167,14 @@ PrefabInstance:
     - target: {fileID: 3719248051328489092, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
       propertyPath: m_Name
       value: Monument_cliffC_large (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719248051328489092, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719248051328489092, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4095668483290811454, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13643,6 +15243,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_Bulbous_plantB (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4844995510027161681, guid: 3df1f06202cecdb45a6cd8cea0f72e9f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4844995510027161681, guid: 3df1f06202cecdb45a6cd8cea0f72e9f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 5221696252835023595, guid: 3df1f06202cecdb45a6cd8cea0f72e9f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 64.08336
@@ -13699,6 +15307,14 @@ PrefabInstance:
     - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
       propertyPath: m_Name
       value: Monument_cliffA_large (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936089113952582470, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4455217394089763324, guid: aff3fbbe3d7e933489a7308eb63a98a7, type: 3}
       propertyPath: m_LocalScale.y
@@ -13811,6 +15427,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_Grass (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6639382576390845502, guid: 1952cc623b03ff544aec0525b79cbb7d, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6639382576390845502, guid: 1952cc623b03ff544aec0525b79cbb7d, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13827,6 +15451,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13889,6 +15521,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13967,6 +15607,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island_TerrainB (93)
       objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 315.04547
@@ -14023,6 +15671,14 @@ PrefabInstance:
     - target: {fileID: 3719248051328489092, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
       propertyPath: m_Name
       value: Monument_cliffC_large (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719248051328489092, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719248051328489092, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4095668483290811454, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14091,6 +15747,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island_TerrainB (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 19.120594
@@ -14147,6 +15811,14 @@ PrefabInstance:
     - target: {fileID: 6252697732506696311, guid: d462ff810b25d76439f7c88d219d5660, type: 3}
       propertyPath: m_Name
       value: Monument_Thorn
+      objectReference: {fileID: 0}
+    - target: {fileID: 6252697732506696311, guid: d462ff810b25d76439f7c88d219d5660, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6252697732506696311, guid: d462ff810b25d76439f7c88d219d5660, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6741285943292190925, guid: d462ff810b25d76439f7c88d219d5660, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14205,6 +15877,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island_TerrainB (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 315.02063
@@ -14261,6 +15941,14 @@ PrefabInstance:
     - target: {fileID: 6252697732506696311, guid: d462ff810b25d76439f7c88d219d5660, type: 3}
       propertyPath: m_Name
       value: Monument_Thorn (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6252697732506696311, guid: d462ff810b25d76439f7c88d219d5660, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6252697732506696311, guid: d462ff810b25d76439f7c88d219d5660, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6741285943292190925, guid: d462ff810b25d76439f7c88d219d5660, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14329,6 +16017,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island_TerrainB (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 18.095882
@@ -14395,6 +16091,14 @@ PrefabInstance:
     - target: {fileID: 8264026529736871993, guid: b56af599af678874d99020ec5262cf60, type: 3}
       propertyPath: m_Name
       value: Monument_Plant_A (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8264026529736871993, guid: b56af599af678874d99020ec5262cf60, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8264026529736871993, guid: b56af599af678874d99020ec5262cf60, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 8783260572841839235, guid: b56af599af678874d99020ec5262cf60, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14498,6 +16202,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_cliffB_large
       objectReference: {fileID: 0}
+    - target: {fileID: 6776529478224178015, guid: 4133079e91a106245a2e4f53f3d35b74, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776529478224178015, guid: 4133079e91a106245a2e4f53f3d35b74, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14519,6 +16231,14 @@ PrefabInstance:
     - target: {fileID: 3719248051328489092, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
       propertyPath: m_Name
       value: Monument_cliffC_large (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719248051328489092, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719248051328489092, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4095668483290811454, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14582,6 +16302,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island_TerrainB (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 118.6206
@@ -14638,6 +16366,14 @@ PrefabInstance:
     - target: {fileID: 7253586925338575751, guid: e523bd55a4614864e972b99625de1f3c, type: 3}
       propertyPath: m_Name
       value: Monument_cliffc (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7253586925338575751, guid: e523bd55a4614864e972b99625de1f3c, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7253586925338575751, guid: e523bd55a4614864e972b99625de1f3c, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 8062070382020598077, guid: e523bd55a4614864e972b99625de1f3c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14700,6 +16436,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14803,6 +16547,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_cliffe (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5311466763800120217, guid: e6a99ae2d60e8f04f97d366ab2760bc0, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5311466763800120217, guid: e6a99ae2d60e8f04f97d366ab2760bc0, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14860,6 +16612,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_pipe
       objectReference: {fileID: 0}
+    - target: {fileID: 799675911701724067, guid: 7d4d6d9d10986474093c6b1019ffe749, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 799675911701724067, guid: 7d4d6d9d10986474093c6b1019ffe749, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14876,6 +16636,14 @@ PrefabInstance:
     - target: {fileID: 3719248051328489092, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
       propertyPath: m_Name
       value: Monument_cliffC_large (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719248051328489092, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719248051328489092, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4095668483290811454, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14994,6 +16762,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_cliffd (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8702741310030777596, guid: b7b84e91ec52e3f4b9fa5c979b7a2154, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8702741310030777596, guid: b7b84e91ec52e3f4b9fa5c979b7a2154, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15010,6 +16786,14 @@ PrefabInstance:
     - target: {fileID: 4844995510027161681, guid: 3df1f06202cecdb45a6cd8cea0f72e9f, type: 3}
       propertyPath: m_Name
       value: Monument_Bulbous_plantB (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4844995510027161681, guid: 3df1f06202cecdb45a6cd8cea0f72e9f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4844995510027161681, guid: 3df1f06202cecdb45a6cd8cea0f72e9f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5221696252835023595, guid: 3df1f06202cecdb45a6cd8cea0f72e9f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15083,6 +16867,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island_TerrainB
       objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -80.37939
@@ -15144,6 +16936,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15242,6 +17042,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_cliffB_large (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6776529478224178015, guid: 4133079e91a106245a2e4f53f3d35b74, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776529478224178015, guid: 4133079e91a106245a2e4f53f3d35b74, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15298,6 +17106,14 @@ PrefabInstance:
     - target: {fileID: 6776529478224178015, guid: 4133079e91a106245a2e4f53f3d35b74, type: 3}
       propertyPath: m_Name
       value: Monument_cliffB_large (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776529478224178015, guid: 4133079e91a106245a2e4f53f3d35b74, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776529478224178015, guid: 4133079e91a106245a2e4f53f3d35b74, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15382,6 +17198,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_pipe (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 799675911701724067, guid: 7d4d6d9d10986474093c6b1019ffe749, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 799675911701724067, guid: 7d4d6d9d10986474093c6b1019ffe749, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15438,6 +17262,14 @@ PrefabInstance:
     - target: {fileID: 6776529478224178015, guid: 4133079e91a106245a2e4f53f3d35b74, type: 3}
       propertyPath: m_Name
       value: Monument_cliffB_large (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776529478224178015, guid: 4133079e91a106245a2e4f53f3d35b74, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776529478224178015, guid: 4133079e91a106245a2e4f53f3d35b74, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15506,6 +17338,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_tower (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 751771064161696735, guid: e4c12614d6b600b4592ced2d18391204, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 751771064161696735, guid: e4c12614d6b600b4592ced2d18391204, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15527,6 +17367,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15625,6 +17473,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_terrain_B (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5742189843375652405, guid: 5ee5dd06caa7b32469a58e666175a2b9, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5742189843375652405, guid: 5ee5dd06caa7b32469a58e666175a2b9, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15692,6 +17548,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monument_cliffB_large (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6776529478224178015, guid: 4133079e91a106245a2e4f53f3d35b74, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776529478224178015, guid: 4133079e91a106245a2e4f53f3d35b74, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15713,6 +17577,14 @@ PrefabInstance:
     - target: {fileID: 3719248051328489092, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
       propertyPath: m_Name
       value: Monument_cliffC_large (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719248051328489092, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719248051328489092, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4095668483290811454, guid: 5504a7f24dd9676408390fca7c0c3329, type: 3}
       propertyPath: m_LocalScale.x
@@ -15782,6 +17654,14 @@ PrefabInstance:
     - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_Name
       value: Island_TerrainB (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259214241993915207, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
       propertyPath: m_LocalPosition.x
