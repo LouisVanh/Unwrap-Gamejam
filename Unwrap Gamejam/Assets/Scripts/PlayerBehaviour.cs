@@ -15,6 +15,7 @@ public class PlayerBehaviour : MonoBehaviour
     private float _elapsedTime;
     private Fuel _fuel;
     private bool _isFlying = true; // turn to true on launch, just true now for testing
+    private float _maxRotation = 45f;
 
     private void Start()
     {
@@ -28,9 +29,6 @@ public class PlayerBehaviour : MonoBehaviour
 
     void Update()
     {
-        Vector3 direction = transform.forward;
-        _moveDirection = Vector3.Normalize(direction) * Speed;
-        _rb.AddForce(_moveDirection, ForceMode.Impulse);
         //_rb.velocity = transform.forward * Speed;
         GatherInput();
         MoveRocket();
@@ -43,28 +41,27 @@ public class PlayerBehaviour : MonoBehaviour
     private void FixedUpdate()
     {
         _elapsedTime = Time.fixedDeltaTime;
+
+        Vector3 direction = transform.forward;
+        _moveDirection = Vector3.Normalize(direction) * Speed;
+        _rb.AddForce(_moveDirection, ForceMode.Impulse);
+
     }
     private void GatherInput()
     {
-        float moveX = Input.GetAxis("Mouse X") * 2;
-        float moveY = Input.GetAxis("Mouse Y") * 2;
+        float moveX = Input.GetAxis("Mouse X") /2;
+        float moveY = Input.GetAxis("Mouse Y") /2;
         _rotationX += moveX;
         _rotationY += moveY;
     }
     private void MoveRocket()
     {
-        //float percentage = _elapsedTime;
-        //_rb.rotation *= Quaternion.Euler(moveY, moveX, 0);
-        //Quaternion toRot = Quaternion.Euler(_rotationY, _rotationX, -_rotationX);
-        //transform.rotation *= Quaternion.Euler(moveY,moveX, 0);
-        //_moveRotation = Quaternion.Lerp(transform.rotation, toRot, percentage);
-        //transform.localRotation = _moveRotation;
-        //Debug.Log(percentage);
-
-        //float rotX = Input.GetAxisRaw("Horizontal") * 0.25f;
-        //transform.localRotation *= Quaternion.Euler(0, 0, -rotX);
-        var rotation = Quaternion.LookRotation(new Vector3(_rotationY, _rotationX, 0));
-        _rb.MoveRotation(Quaternion.RotateTowards(transform.rotation, rotation, 3 * Time.deltaTime));
-
+        float percentage = _elapsedTime / 1.5f;
+        percentage = Mathf.Clamp01(percentage);
+        Quaternion toRot = Quaternion.Euler(_rotationY, _rotationX, transform.rotation.z);
+        float rotationDifference = transform.rotation.y - toRot.y;
+        
+        Quaternion rotation = Quaternion.Lerp(transform.rotation, toRot, percentage);
+        transform.rotation = rotation;
     }
 }
