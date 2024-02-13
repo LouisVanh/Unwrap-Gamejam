@@ -122,6 +122,7 @@ GameObject:
   - component: {fileID: 1182754274877020416}
   - component: {fileID: 8021058820788618280}
   - component: {fileID: 6306884709944877260}
+  - component: {fileID: 1528279160393911784}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -191,6 +192,7 @@ MonoBehaviour:
   _trailVFX: {fileID: 3626958495479711255, guid: b52b307bb67500240b743b50fa4bc7df, type: 3}
   _trailPos: {fileID: 8015288418254821578}
   _trail: {fileID: 0}
+  _mouseSens: 0
 --- !u!136 &8312084173643822847
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -250,6 +252,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9eeafd3ee002d649bd5bb05e2cf2886, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _prefabBig: {fileID: 0}
+  _prefabSmall: {fileID: 0}
+--- !u!114 &1528279160393911784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1684254845213054310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc5036f6f4d04e048bffd5a3b3ca586c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _camerBehavior: {fileID: 6364798981857360983}
+  _playerBehaviour: {fileID: 232592548590832312}
+  _speed: 100
+  _launcheTime: 3
+  _controllsActivateTime: 3
+  _rb: {fileID: 4962811016416019211}
 --- !u!1 &4197408192023814522
 GameObject:
   m_ObjectHideFlags: 0

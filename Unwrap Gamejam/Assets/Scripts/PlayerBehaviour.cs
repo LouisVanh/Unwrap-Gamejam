@@ -21,7 +21,7 @@ public class PlayerBehaviour : MonoBehaviour
     private float _maxRotation = 5f;
     [SerializeField] private float _mouseSens; 
 
-    private void Start()
+    private void Awake()
     {
         _rb = GetComponent<Rigidbody>();
         _fuel = GetComponent<Fuel>();
