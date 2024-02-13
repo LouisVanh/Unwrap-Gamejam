@@ -188,6 +188,7 @@ MonoBehaviour:
   Speed: 300
   _trailVFX: {fileID: 3626958495479711255, guid: b52b307bb67500240b743b50fa4bc7df, type: 3}
   _trailPos: {fileID: 8015288418254821578}
+  _trail: {fileID: 8015288418254821578}
 --- !u!136 &8312084173643822847
 CapsuleCollider:
   m_ObjectHideFlags: 0
