@@ -1140,11 +1140,21 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4970720071538353295, guid: 5ee5dd06caa7b32469a58e666175a2b9, type: 3}
   m_PrefabInstance: {fileID: 1425127019}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &199888088 stripped
+--- !u!1 &199888088
 GameObject:
+  m_ObjectHideFlags: 8
   m_CorrespondingSourceObject: {fileID: 6056819800676651856, guid: 9649864b661a9d3489881b986031de9f, type: 3}
   m_PrefabInstance: {fileID: 1930575896}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component: []
+  m_Layer: 0
+  m_Name: Placeholder for referenced GameObject in Prefab instance (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1001 &206202112
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3748,11 +3758,11 @@ PrefabInstance:
     - target: {fileID: 5822421550959927575, guid: 4dcea5bb498a4bd41a87a860a75e04b9, type: 3}
       propertyPath: _player
       value: 
-      objectReference: {fileID: 887875920}
+      objectReference: {fileID: 0}
     - target: {fileID: 5822421550959927575, guid: 4dcea5bb498a4bd41a87a860a75e04b9, type: 3}
       propertyPath: _camTarget
       value: 
-      objectReference: {fileID: 199888088}
+      objectReference: {fileID: 0}
     - target: {fileID: 7051883258674151336, guid: 4dcea5bb498a4bd41a87a860a75e04b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 20.391846
@@ -6445,11 +6455,21 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4827241209043472675, guid: e6a99ae2d60e8f04f97d366ab2760bc0, type: 3}
   m_PrefabInstance: {fileID: 1306355370}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &887875920 stripped
+--- !u!1 &887875920
 GameObject:
+  m_ObjectHideFlags: 8
   m_CorrespondingSourceObject: {fileID: 3457578214987769919, guid: 9649864b661a9d3489881b986031de9f, type: 3}
   m_PrefabInstance: {fileID: 1930575896}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component: []
+  m_Layer: 0
+  m_Name: 'Player (Missing Prefab with guid: 9649864b661a9d3489881b986031de9f)'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!4 &889785554 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6743826652241633789, guid: d429f1b8dccefce4299e98512ef3804f, type: 3}
