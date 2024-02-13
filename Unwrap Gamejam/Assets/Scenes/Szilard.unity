@@ -217,7 +217,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1001 &980460789
+--- !u!1001 &1157709019
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -225,17 +225,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 680318851344884513, guid: f1434845c8a7f3f4c99de524c41d3645, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 680318851344884513, guid: f1434845c8a7f3f4c99de524c41d3645, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.2
+      objectReference: {fileID: 0}
     - target: {fileID: 4864205642869289554, guid: f1434845c8a7f3f4c99de524c41d3645, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.902317
+      value: -12.980713
       objectReference: {fileID: 0}
     - target: {fileID: 4864205642869289554, guid: f1434845c8a7f3f4c99de524c41d3645, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 8.14
       objectReference: {fileID: 0}
     - target: {fileID: 4864205642869289554, guid: f1434845c8a7f3f4c99de524c41d3645, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 28.457756
+      value: 30.009552
       objectReference: {fileID: 0}
     - target: {fileID: 4864205642869289554, guid: f1434845c8a7f3f4c99de524c41d3645, type: 3}
       propertyPath: m_LocalRotation.w
@@ -268,6 +276,10 @@ PrefabInstance:
     - target: {fileID: 5800307986253374498, guid: f1434845c8a7f3f4c99de524c41d3645, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7120909974084108267, guid: f1434845c8a7f3f4c99de524c41d3645, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -386,4 +398,4 @@ SceneRoots:
   m_Roots:
   - {fileID: 943806357}
   - {fileID: 2078224498}
-  - {fileID: 980460789}
+  - {fileID: 1157709019}
