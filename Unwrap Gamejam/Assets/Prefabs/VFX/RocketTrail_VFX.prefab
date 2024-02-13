@@ -29,10 +29,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 6316830261899340171}
   - {fileID: 7640405001044843423}
   - {fileID: 1863128488475987959}
   - {fileID: 995870336824360675}
-  - {fileID: 6316830261899340171}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
 --- !u!1 &5293164937837476272
@@ -5878,7 +5878,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 60
+      scalar: 80
       minScalar: 10
       maxCurve:
         serializedVersion: 2

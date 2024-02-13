@@ -20,13 +20,15 @@ public class PlayerBehaviour : MonoBehaviour
     private bool _isFlying = true; // turn to true on launch, just true now for testing
     private float _maxRotation = 5f;
     [SerializeField] private float _mouseSens; 
+    private float _gravity = -6f;
+    public bool IsOn = true;
 
     private void Awake()
     {
         _rb = GetComponent<Rigidbody>();
         _fuel = GetComponent<Fuel>();
         Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible= false;
+        Cursor.visible = false;
         _fuel.AddFuel(100); //max fuel
         _trail = GameObject.Instantiate(_trailVFX, _trailPos.transform.position, transform.rotation, transform);
         _mouseSens = 5; //remove when we have final value, it's in the serializefield!
@@ -36,8 +38,14 @@ public class PlayerBehaviour : MonoBehaviour
     void Update()
     {
         //_rb.velocity = transform.forward * Speed;
+        _rb.AddForce(new Vector3(0, _gravity, 0), ForceMode.Acceleration);
         GatherInput();
         MoveRocket();
+        RocketEngineOnOf();
+        if (Input.GetKeyDown(KeyCode.Space) && IsOn)
+        {
+            IsOn = false;
+        }
         if (_isFlying)
         {
             _fuel.AddFuel(-1 * Time.deltaTime);
@@ -47,16 +55,20 @@ public class PlayerBehaviour : MonoBehaviour
     private void FixedUpdate()
     {
         _elapsedTime = Time.fixedDeltaTime;
+        if (IsOn)
+        {
+            _rb.velocity = transform.forward * Speed;
 
-        Vector3 direction = transform.forward;
-        _moveDirection = Vector3.Normalize(direction) * Speed;
-        _rb.AddForce(_moveDirection, ForceMode.Impulse);
+        }
+        //Vector3 direction = transform.forward;
+        //_moveDirection = Vector3.Normalize(direction) * Speed;
+        //_rb.AddForce(_moveDirection, ForceMode.Impulse);
 
     }
     private void GatherInput()
     {
-        float moveX = Input.GetAxis("Mouse X") / _mouseSens;
-        float moveY = Input.GetAxis("Mouse Y") /_mouseSens;
+        float moveX = Input.GetAxis("Mouse X") / 2;
+        float moveY = Input.GetAxis("Mouse Y") / 2;
         _rotationX += moveX;
         _rotationY += moveY;
     }
@@ -68,5 +80,18 @@ public class PlayerBehaviour : MonoBehaviour
 
         Quaternion rotation = Quaternion.Lerp(_rb.rotation, toRot, percentage);
         _rb.rotation = rotation;
+    }
+    private void RocketEngineOnOf()
+    {
+        if (IsOn)
+        {
+            _trail.SetActive(true);
+            Speed = 100;
+        }
+        if (!IsOn)
+        {
+            _trail.SetActive(false);
+            Speed = 0;
+        }
     }
 }

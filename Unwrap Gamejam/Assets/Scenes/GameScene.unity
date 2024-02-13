@@ -1012,6 +1012,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1528279160393911784, guid: f1434845c8a7f3f4c99de524c41d3645, type: 3}
+      propertyPath: _FOVbehavior
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4864205642869289554, guid: f1434845c8a7f3f4c99de524c41d3645, type: 3}
       propertyPath: m_LocalPosition.x
       value: 17.19374
