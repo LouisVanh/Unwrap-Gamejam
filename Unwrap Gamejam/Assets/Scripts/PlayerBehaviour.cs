@@ -15,7 +15,7 @@ public class PlayerBehaviour : MonoBehaviour
     private float _elapsedTime;
     private Fuel _fuel;
     private bool _isFlying = true; // turn to true on launch, just true now for testing
-    private float _maxRotation = 45f;
+    private float _maxRotation = 5f;
 
     private void Start()
     {
@@ -58,10 +58,9 @@ public class PlayerBehaviour : MonoBehaviour
     {
         float percentage = _elapsedTime / 1.5f;
         percentage = Mathf.Clamp01(percentage);
-        Quaternion toRot = Quaternion.Euler(_rotationY, _rotationX, transform.rotation.z);
-        float rotationDifference = transform.rotation.y - toRot.y;
-        
-        Quaternion rotation = Quaternion.Lerp(transform.rotation, toRot, percentage);
-        transform.rotation = rotation;
+        Quaternion toRot = Quaternion.Euler(_rotationY, _rotationX, _rb.rotation.z);
+
+        Quaternion rotation = Quaternion.Lerp(_rb.rotation, toRot, percentage);
+        _rb.rotation = rotation;
     }
 }
