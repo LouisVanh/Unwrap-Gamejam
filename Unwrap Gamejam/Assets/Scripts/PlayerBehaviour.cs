@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Fuel))]
 public class PlayerBehaviour : MonoBehaviour
 {
     [SerializeField] public float Fuel;
@@ -12,12 +13,16 @@ public class PlayerBehaviour : MonoBehaviour
     private float _rotationX;
     private float _rotationY;
     private float _elapsedTime;
+    private Fuel _fuel;
+    private bool _isFlying = true; // turn to true on launch, just true now for testing
 
-    private void Awake()
+    private void Start()
     {
         _rb = GetComponent<Rigidbody>();
+        _fuel = GetComponent<Fuel>();
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible= false;
+        _fuel.AddFuel(100); //max fuel
     }
 
 
@@ -29,6 +34,11 @@ public class PlayerBehaviour : MonoBehaviour
         //_rb.velocity = transform.forward * Speed;
         GatherInput();
         MoveRocket();
+        if (_isFlying)
+        {
+            _fuel.AddFuel(-1 * Time.deltaTime);
+            Debug.Log($"do I have fuel?: {_fuel.HasFuel}");
+        }
     }
     private void FixedUpdate()
     {
