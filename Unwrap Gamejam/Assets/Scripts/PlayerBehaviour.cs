@@ -22,10 +22,10 @@ public class PlayerBehaviour : MonoBehaviour
     private bool _isFlying = true; // turn to true on launch, just true now for testing
     private float _maxRotation = 5f;
     [SerializeField] private float _mouseSens;
-    private float _gravity = -10f;
+    private float _gravity = -15f;
     public bool IsOn = true;
     private bool _engineOn = true;
-    private float _cruiseSpeed = 100;
+    private float _cruiseSpeed = 110;
 
     private void Awake()
     {
@@ -73,11 +73,11 @@ public class PlayerBehaviour : MonoBehaviour
             _rb.velocity += transform.forward * Speed;
             if (_rb.velocity.magnitude > _cruiseSpeed)
             {
-                _rb.velocity -= transform.forward * Speed * Time.fixedDeltaTime * 4;
+                _rb.velocity -= transform.forward * Speed * Time.fixedDeltaTime * 0.02f;
             }
             else
             {
-                
+
             }
 
         }

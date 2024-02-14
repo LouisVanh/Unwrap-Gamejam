@@ -26,7 +26,8 @@ public class CameraBehaviour : MonoBehaviour
     private void MoveCamera()
     {
         float percentage = _elapsedTime/0.2f;
+        float rotPercentage = _elapsedTime / 0.2f;
         transform.position = Vector3.Lerp(transform.position,_camTarget.transform.position, percentage);
-        transform.rotation = Quaternion.Lerp(transform.rotation,_camTarget.transform.rotation, percentage);
+        transform.rotation = Quaternion.Lerp(transform.rotation,_camTarget.transform.rotation, rotPercentage);
     }
 }
