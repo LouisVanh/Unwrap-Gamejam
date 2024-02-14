@@ -23,11 +23,11 @@ public class CompassBar: MonoBehaviour
     void Update()
     {
         SetMarkerPosition(_objectiveMarkerTransform, _objectiveObjectTransform.position);
-        SetMarkerPositionDirections(_northMarker.GetComponent<RectTransform>(), Vector3.forward * 100000, _northMarker);
-        SetMarkerPositionDirections(_southMarker.GetComponent<RectTransform>(), Vector3.back * 100000, _southMarker);
+        SetMarkerPositionDirections(_northMarker.GetComponent<RectTransform>(), Vector3.forward * 1000, _northMarker);
+        SetMarkerPositionDirections(_southMarker.GetComponent<RectTransform>(), Vector3.back * 1000, _southMarker);
 
-        SetMarkerPositionDirections(_westMarker.GetComponent<RectTransform>(), Vector3.left * 100000, _westMarker);
-        SetMarkerPositionDirections(_eastMarker.GetComponent<RectTransform>(), Vector3.right * 100000, _eastMarker);
+        SetMarkerPositionDirections(_westMarker.GetComponent<RectTransform>(), Vector3.left * 1000, _westMarker);
+        SetMarkerPositionDirections(_eastMarker.GetComponent<RectTransform>(), Vector3.right * 1000, _eastMarker);
     }
 
     private void SetMarkerPosition(RectTransform markerTransform, Vector3 worldPosition)
