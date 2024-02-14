@@ -15,7 +15,7 @@ public class Explode : MonoBehaviour
 
     private void Start()
     {
-
+        _camera = Camera.main.transform;
     }
     private void OnCollisionEnter(Collision collision)
     {

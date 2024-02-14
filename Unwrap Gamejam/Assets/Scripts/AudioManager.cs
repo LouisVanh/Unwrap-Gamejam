@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class AudioManager : MonoBehaviour
@@ -28,7 +29,14 @@ public class AudioManager : MonoBehaviour
 
 
     public static AudioManager Instance;
-    [SerializeField] Slider volumeSlider;
+
+    [SerializeField] AudioSource _menuAudio;
+    [SerializeField] private AudioClip _clipGame;
+    [SerializeField] private AudioClip _clipMenu;
+    [SerializeField] private Slider _sfxVolumeSlider;
+    [SerializeField] private Slider _mainVolumeSlider;
+    [SerializeField] private Slider _ambientVolumeSlider;
+
 
     private void Awake()
     {
@@ -40,38 +48,75 @@ public class AudioManager : MonoBehaviour
         Instance = this;
         DontDestroyOnLoad(this);
     }
-    public void ChangeVolume()
-    {
-        AudioListener.volume = volumeSlider.value;
-        Save();
-    }
-
-    public void Save()
-    {
-        PlayerPrefs.SetFloat("musicVolume", volumeSlider.value);
-    }
-
-    public void SetSliderToCorrectAmount()
-    {
-        volumeSlider.value = PlayerPrefs.GetFloat("musicVolume");
-    }
     void Start()
     {
-        if (!PlayerPrefs.HasKey("musicVolume"))
+        if (SceneManager.GetActiveScene() == SceneManager.GetSceneByBuildIndex(1)) // only ran if starting from in playscene - pretty much debug code
         {
-            PlayerPrefs.SetFloat("musicVolume", 1);
-            SetSliderToCorrectAmount();
+            PleaseStartAttachingAudio();
         }
-        else
+
+        if (!PlayerPrefs.HasKey("sfxVolume") || !PlayerPrefs.HasKey("mainVolume") || !PlayerPrefs.HasKey("ambientVolume")) //if the sliders aren't set yet
         {
-            SetSliderToCorrectAmount();
+            PlayerPrefs.SetFloat("sfxVolume", 1);
+            PlayerPrefs.SetFloat("mainVolume", 1);
+            PlayerPrefs.SetFloat("ambientVolume", 1);
         }
+        LoadSliders();
+
+        PlayCorrectMusicDependentOnScene();
+    }
+    public void PleaseStartAttachingAudio()
+    {
+        StartCoroutine(AttachAndPlayRocketSounds());
+    }
+    public IEnumerator AttachAndPlayRocketSounds()
+    {
+        yield return new WaitForSeconds(3.2f);
         _rocketAudio = GameObject.FindWithTag("Player").GetComponent<AudioSource>();
         _cameraAudio = Camera.main.GetComponent<AudioSource>();
         PlayLaunchSequence();
         StartRocketFlyingSound();
+        yield return null;
     }
 
+    private void PlayCorrectMusicDependentOnScene()
+    {
+        if (SceneManager.GetActiveScene().buildIndex == 0)
+        {
+            //_menuAudio.clip = _clipMenu; //todo enable when we have music
+        }
+        else
+        {
+            //_menuAudio.clip = _clipGame; // todo enable when we have music
+        }
+        //_menuAudio.Play();
+    }
+
+    #region Volume shenanigans
+    public void ChangeVolumes()
+    {
+        AudioListener.volume = _mainVolumeSlider.value;
+        SaveSliders();
+    }
+    public void LoadSliders()
+    {
+        if (_mainVolumeSlider)
+        _mainVolumeSlider.value = PlayerPrefs.GetFloat("mainVolume");
+        if (_sfxVolumeSlider)
+        _sfxVolumeSlider.value = PlayerPrefs.GetFloat("sfxVolume");
+        if (_ambientVolumeSlider)
+        _ambientVolumeSlider.value = PlayerPrefs.GetFloat("ambientVolume");
+    }
+    public void SaveSliders()
+    {
+        PlayerPrefs.SetFloat("mainVolume", _mainVolumeSlider.value);
+        PlayerPrefs.SetFloat("sfxVolume", _sfxVolumeSlider.value);
+        PlayerPrefs.SetFloat("ambientVolume", _ambientVolumeSlider.value);
+    }
+    #endregion
+
+
+    #region Play sounds to audiosources
     public void PlayLaunchSequence()
     {
         _cameraAudio.PlayOneShot(_rocketStart /* , _mainVolume * _sfxVolume */);
@@ -80,4 +125,5 @@ public class AudioManager : MonoBehaviour
     {
         _rocketAudio.PlayOneShot(_rocketFlying /* , _mainVolume * _ambientVolume */);
     }
+    #endregion
 }

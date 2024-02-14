@@ -27,8 +27,9 @@ public class UI_Script : MonoBehaviour
     }
     public void PlayGame()
     {
-        AudioManager.Instance.Save();
+        //AudioManager.Instance.SaveSliders();
         SceneManager.LoadScene(1);
+        AudioManager.Instance.PleaseStartAttachingAudio();
     }
     public void QuitGame()
     {
@@ -36,7 +37,7 @@ public class UI_Script : MonoBehaviour
     }
     public void RestartGame()
     {
-        AudioManager.Instance.Save();
+        //AudioManager.Instance.SaveSliders();
         SceneManager.LoadScene(0);
         _menu.enabled = true;
         _settings.enabled = false;
