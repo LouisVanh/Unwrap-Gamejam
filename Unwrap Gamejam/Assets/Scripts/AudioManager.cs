@@ -20,6 +20,13 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AudioSource _rocketAudio;
     [SerializeField] private AudioSource _cameraAudio;
 
+    [Header("Volume")] // implement todo (when sliders are here)
+    [SerializeField] private float _mainVolume;
+    [SerializeField] private float _sfxVolume;
+    [SerializeField] private float _ambientVolume;
+
+
+
     void Start()
     {
         _rocketAudio = GameObject.FindWithTag("Player").GetComponent<AudioSource>();
@@ -29,6 +36,10 @@ public class AudioManager : MonoBehaviour
 
     public void PlayLaunchSequence()
     {
-        _cameraAudio.PlayOneShot(_rocketStart);
+        _cameraAudio.PlayOneShot(_rocketStart /* , _mainVolume * _sfxVolume */);
+    }
+    public void StartRocketFlyingSound()
+    {
+        _rocketAudio.PlayOneShot(_rocketFlying /* , _mainVolume * _ambientVolume */);
     }
 }
