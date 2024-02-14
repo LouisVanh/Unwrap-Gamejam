@@ -43077,6 +43077,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 744981466}
     m_Modifications:
+    - target: {fileID: 3585363894150690073, guid: 890ae1b3770104546a39d91e01637330, type: 3}
+      propertyPath: m_Color.b
+      value: 0.10453009
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585363894150690073, guid: 890ae1b3770104546a39d91e01637330, type: 3}
+      propertyPath: m_Color.g
+      value: 0.10453009
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585363894150690073, guid: 890ae1b3770104546a39d91e01637330, type: 3}
+      propertyPath: m_Color.r
+      value: 0.8207547
+      objectReference: {fileID: 0}
+    - target: {fileID: 4450863221343218779, guid: 890ae1b3770104546a39d91e01637330, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4450863221343218779, guid: 890ae1b3770104546a39d91e01637330, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4450863221343218779, guid: 890ae1b3770104546a39d91e01637330, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580319380594149690, guid: 890ae1b3770104546a39d91e01637330, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580319380594149690, guid: 890ae1b3770104546a39d91e01637330, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5751680928139083167, guid: 890ae1b3770104546a39d91e01637330, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -43157,6 +43189,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6805074096221359291, guid: 890ae1b3770104546a39d91e01637330, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ab75ea1415601ef4da39e2c8b5713ff5, type: 3}
     - target: {fileID: 6805074096221359291, guid: 890ae1b3770104546a39d91e01637330, type: 3}
       propertyPath: m_Color.a
       value: 1
