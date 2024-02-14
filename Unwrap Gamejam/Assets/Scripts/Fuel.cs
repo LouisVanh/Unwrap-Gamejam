@@ -6,6 +6,9 @@ public class Fuel : MonoBehaviour
 {
     private float FuelCount;
 
+    public delegate void FuelammountChanged(float fuelcount);
+    public static event FuelammountChanged OnFuelammountChanged;
+
     private void OnEnable()
     {
         PickupComponent.OnAddFuel += AddFuel;
@@ -19,6 +22,7 @@ public class Fuel : MonoBehaviour
     {
         FuelCount += amount;
         if (FuelCount > 100) FuelCount = 100;
+        OnFuelammountChanged?.Invoke(FuelCount);
     }
     public bool HasFuel
     {
