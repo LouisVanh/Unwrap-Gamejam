@@ -73,7 +73,7 @@ public class PlayerBehaviour : MonoBehaviour
             _rb.velocity += transform.forward * Speed;
             if (_rb.velocity.magnitude > _cruiseSpeed)
             {
-                _rb.velocity -= new Vector3(30f, 0, 30f) * Time.fixedDeltaTime;
+                _rb.velocity -= new Vector3(50f, 0, 50f) * Time.fixedDeltaTime;
             }
             else
             {
