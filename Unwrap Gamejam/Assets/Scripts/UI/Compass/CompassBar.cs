@@ -15,12 +15,23 @@ public class CompassBar: MonoBehaviour
     [SerializeField] private GameObject _westMarker;
     [SerializeField] private GameObject _eastMarker;
 
-    [SerializeField] private Transform _cameraobjectTransform;
+    private Transform _cameraobjectTransform;
 
 
     private Transform _objectiveObjectTransform;
 
     [SerializeField] private float _angleOfDisapearing = 90;
+
+    private void Awake()
+    {
+        StartCoroutine(DelayedAwake());
+    }
+
+    private IEnumerator DelayedAwake()
+    {
+        yield return null;
+        _cameraobjectTransform = Camera.main.transform;
+    }
 
     private void OnEnable()
     {
@@ -34,12 +45,15 @@ public class CompassBar: MonoBehaviour
 
     void Update()
     {
-        SetMarkerPosition(_objectiveMarkerTransform, _objectiveObjectTransform.position);
-        SetMarkerPositionDirections(_northMarker.GetComponent<RectTransform>(), Vector3.forward * 100000, _northMarker);
-        SetMarkerPositionDirections(_southMarker.GetComponent<RectTransform>(), Vector3.back * 100000, _southMarker);
+        if (_cameraobjectTransform != null)
+        {
+            SetMarkerPosition(_objectiveMarkerTransform, _objectiveObjectTransform.position);
+            SetMarkerPositionDirections(_northMarker.GetComponent<RectTransform>(), Vector3.forward * 100000, _northMarker);
+            SetMarkerPositionDirections(_southMarker.GetComponent<RectTransform>(), Vector3.back * 100000, _southMarker);
 
-        SetMarkerPositionDirections(_westMarker.GetComponent<RectTransform>(), Vector3.left * 100000, _westMarker);
-        SetMarkerPositionDirections(_eastMarker.GetComponent<RectTransform>(), Vector3.right * 100000, _eastMarker);
+            SetMarkerPositionDirections(_westMarker.GetComponent<RectTransform>(), Vector3.left * 100000, _westMarker);
+            SetMarkerPositionDirections(_eastMarker.GetComponent<RectTransform>(), Vector3.right * 100000, _eastMarker);
+        }
     }
 
     private void SetMarkerPosition(RectTransform markerTransform, Vector3 worldPosition)
