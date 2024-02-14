@@ -275,6 +275,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _prefabBig: {fileID: 4593184484909914552, guid: 2e1e9506f5904a64b81744324fb7cd50, type: 3}
   _prefabSmall: {fileID: 2433282508537954060, guid: 3ef3ae421f71c5c4e97fe12dc2fc6312, type: 3}
+  _targetFOV: 70
+  _lerpSpeedFOV: 5
+  _camera: {fileID: 680318851344884513}
+  _targetCameraDistance: 50
+  _lerpSpeedCameraDistance: 5
 --- !u!1 &3255174535380646304
 GameObject:
   m_ObjectHideFlags: 0
