@@ -1451,7 +1451,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b9e035b164778f49a22167f610747f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _MaxHeight: 3000
+  _MaxHeight: 2000
   _MaxHeightText: {fileID: 6780049005148772885}
   _MidHeightText: {fileID: 5339947659858169880}
   _HeightMeter: {fileID: 6090382000786906221}
