@@ -52,21 +52,21 @@ public class UI_Script : MonoBehaviour
         }
         _settings.enabled = _settings.enabled ? false : true;
 
-        Invoke(nameof(LinkSliders),1);
+        //Invoke(nameof(LinkSliders),1);
 
     }
 
-    private void LinkSliders()
-    {
-        // when settings open, (re)link the sliders to the audiomanager
-        //AudioManager.Instance.AmbientVolumeSlider = GameObject.Find("AmbientVolumeSlider").GetComponent<Slider>();
-        //AudioManager.Instance.SFXVolumeSlider = GameObject.Find("SFXVolumeSlider").GetComponent<Slider>();
-        //AudioManager.Instance.MainVolumeSlider = GameObject.Find("MainVolumeSlider").GetComponent<Slider>();
-    }
+    //private void LinkSliders()
+    //{
+    //    // when settings open, (re)link the sliders to the audiomanager
+    //    //AudioManager.Instance.AmbientVolumeSlider = GameObject.Find("AmbientVolumeSlider").GetComponent<Slider>();
+    //    //AudioManager.Instance.SFXVolumeSlider = GameObject.Find("SFXVolumeSlider").GetComponent<Slider>();
+    //    //AudioManager.Instance.MainVolumeSlider = GameObject.Find("MainVolumeSlider").GetComponent<Slider>();
+    //}
 
-    public void UpdateSlider()
-    {
-        AudioManager.Instance.ChangeVolumes();
-        Debug.Log("KILL YOURSELF");
-    }
+    //public void UpdateSlider()
+    //{
+    //    AudioManager.Instance.ChangeVolumes();
+    //    Debug.Log("KILL YOURSELF");
+    //}
 }

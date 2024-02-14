@@ -6,37 +6,17 @@ using UnityEngine.UI;
 
 public class AudioManager : MonoBehaviour
 {
-    [Header("Sounds")]
-    [SerializeField] private AudioClip _explosion;
-    [SerializeField] private AudioClip _wind;
-    [SerializeField] private AudioClip _rocketFlying;
-    [SerializeField] private AudioClip _homingFlying;
-    [SerializeField] private AudioClip _homingMiss;
-    [SerializeField] private AudioClip _UIClick;
-    [SerializeField] private AudioClip _UIMiss;
-    [SerializeField] private AudioClip _rocketStart;
-    [SerializeField] private AudioClip _homingStart;
-    // could put homing beep beep too?
-
-    [Header("AudioSources (Debug, don't assign)")]
     [SerializeField] private AudioSource _rocketAudio;
     [SerializeField] private AudioSource _cameraAudio;
 
-    //[Header("Volume")] // implement todo (when sliders are here)
-    //[SerializeField] private float _mainVolume;
-    //[SerializeField] private float _sfxVolume;
-    //[SerializeField] private float _ambientVolume;
-
-
     public static AudioManager Instance;
 
-    [SerializeField] AudioSource _menuAudio;
-    [SerializeField] private AudioClip _clipGame;
-    [SerializeField] private AudioClip _clipMenu;
-    public Slider SFXVolumeSlider;
-    public Slider MainVolumeSlider;
-    public Slider AmbientVolumeSlider;
+    [SerializeField] private AudioClip _rocketStart;
+    [SerializeField] private AudioClip _rocketFlying;
 
+    [SerializeField] private Slider MainVolumeSlider;
+    //[SerializeField] private Slider SFXVolumeSlider;
+    //[SerializeField] private Slider AmbientVolumeSlider;
 
     private void Awake()
     {
@@ -48,23 +28,66 @@ public class AudioManager : MonoBehaviour
         Instance = this;
         DontDestroyOnLoad(this);
     }
-    void Start()
+
+    private void Start()
     {
-        if (SceneManager.GetActiveScene() == SceneManager.GetSceneByBuildIndex(1)) // only ran if starting from in playscene - pretty much debug code
-        {
-            PleaseStartAttachingAudio();
-        }
-
-        if (!PlayerPrefs.HasKey("sfxVolume") || !PlayerPrefs.HasKey("mainVolume") || !PlayerPrefs.HasKey("ambientVolume")) //if the sliders aren't set yet
-        {
-            PlayerPrefs.SetFloat("sfxVolume", 0.9f);
-            PlayerPrefs.SetFloat("mainVolume", 0.8f);
-            PlayerPrefs.SetFloat("ambientVolume", 0.8f);
-        }
         LoadSliders();
-
-        PlayCorrectMusicDependentOnScene();
     }
+
+    public void ChangeVolumes()
+    {
+        AudioListener.volume = MainVolumeSlider.value;
+        SaveSliders();
+    }
+
+    public void LoadSliders()
+    {
+        if (PlayerPrefs.HasKey("mainVolume"))
+        {
+            MainVolumeSlider.value = PlayerPrefs.GetFloat("mainVolume");
+        }
+        else
+        {
+            MainVolumeSlider.value = 0.8f; // Default value
+        }
+
+        //if (PlayerPrefs.HasKey("sfxVolume"))
+        //{
+        //    SFXVolumeSlider.value = PlayerPrefs.GetFloat("sfxVolume");
+        //}
+        //else
+        //{
+        //    SFXVolumeSlider.value = 0.9f; // Default value
+        //}
+
+        //if (PlayerPrefs.HasKey("ambientVolume"))
+        //{
+        //    AmbientVolumeSlider.value = PlayerPrefs.GetFloat("ambientVolume");
+        //}
+        //else
+        //{
+        //    AmbientVolumeSlider.value = 0.8f; // Default value
+        //}
+    }
+
+    public void SaveSliders()
+    {
+        PlayerPrefs.SetFloat("mainVolume", MainVolumeSlider.value);
+        //PlayerPrefs.SetFloat("sfxVolume", SFXVolumeSlider.value);
+        //PlayerPrefs.SetFloat("ambientVolume", AmbientVolumeSlider.value);
+        PlayerPrefs.Save(); // Remember to save changes
+    }
+
+    public void PlayLaunchSequence()
+    {
+        _cameraAudio.PlayOneShot(_rocketStart);
+    }
+
+    public void StartRocketFlyingSound()
+    {
+        _rocketAudio.PlayOneShot(_rocketFlying);
+    }
+
     public void PleaseStartAttachingAudio()
     {
         StartCoroutine(AttachAndPlayRocketSounds());
@@ -78,60 +101,4 @@ public class AudioManager : MonoBehaviour
         StartRocketFlyingSound();
         yield return null;
     }
-
-    private void PlayCorrectMusicDependentOnScene()
-    {
-        if (SceneManager.GetActiveScene().buildIndex == 0)
-        {
-            //_menuAudio.clip = _clipMenu; //todo enable when we have music
-        }
-        else
-        {
-            //_menuAudio.clip = _clipGame; // todo enable when we have music
-        }
-        //_menuAudio.Play();
-    }
-
-    #region Volume shenanigans
-    public void ChangeVolumes()
-    {
-        AudioListener.volume = MainVolumeSlider.value;
-        SaveSliders();
-    }
-    //private void LinkSliders() // was suppossed to attach the stuff onto the audiomanager, but its broken and settings are cancelled in main scene
-    //{
-    //    // when settings open, (re)link the sliders to the audiomanager
-    //    AudioManager.Instance.AmbientVolumeSlider = GameObject.Find("AmbientVolumeSlider").GetComponent<Slider>();
-    //    AudioManager.Instance.SFXVolumeSlider = GameObject.Find("SFXVolumeSlider").GetComponent<Slider>();
-    //    AudioManager.Instance.MainVolumeSlider = GameObject.Find("MainVolumeSlider").GetComponent<Slider>();
-    //}
-    public void LoadSliders()
-    {
-        //LinkSliders();
-        if (MainVolumeSlider)
-            MainVolumeSlider.value = PlayerPrefs.GetFloat("mainVolume");
-        if (SFXVolumeSlider)
-            SFXVolumeSlider.value = PlayerPrefs.GetFloat("sfxVolume");
-        if (AmbientVolumeSlider)
-            AmbientVolumeSlider.value = PlayerPrefs.GetFloat("ambientVolume");
-    }
-    public void SaveSliders()
-    {
-        PlayerPrefs.SetFloat("mainVolume", MainVolumeSlider.value);
-        PlayerPrefs.SetFloat("sfxVolume", SFXVolumeSlider.value);
-        PlayerPrefs.SetFloat("ambientVolume", AmbientVolumeSlider.value);
-    }
-    #endregion
-
-
-    #region Play sounds to audiosources
-    public void PlayLaunchSequence()
-    {
-        _cameraAudio.PlayOneShot(_rocketStart /* , _mainVolume * _sfxVolume */);
-    }
-    public void StartRocketFlyingSound()
-    {
-        _rocketAudio.PlayOneShot(_rocketFlying /* , _mainVolume * _ambientVolume */);
-    }
-    #endregion
 }
