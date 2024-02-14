@@ -31,22 +31,19 @@ public class Explode : MonoBehaviour
         
 
     }
-    private IEnumerator GetRidOfPlayer()
-    {
-        _player.SetActive(false);
-        yield return new WaitForSeconds(1);
-    }
 
     private IEnumerator PlayExplosion()
     {
         //Debug.Log("BOOM");
         // vfx
         var big = Instantiate(_prefabBig, this.transform.position, Quaternion.identity);
-        big.transform.localScale = 15 * Vector3.one;
+        big.transform.localScale = _player.GetComponent<PlayerBehaviour>()._sizeMultiplier * 15 * Vector3.one;
+        
         //maybe spawn multiple of these around it
         var small = Instantiate(_prefabSmall, this.transform.position, Quaternion.identity);
         small.transform.localScale = 5 * Vector3.one;
 
+        _player.GetComponent<PlayerBehaviour>()._mesh.SetActive(false);
         // cam shake (already here but more)
         // sound
         // explosion force
