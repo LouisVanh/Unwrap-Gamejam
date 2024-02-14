@@ -63,8 +63,8 @@ public class PlayerBehaviour : MonoBehaviour
         //_rb.velocity = transform.forward * Speed;
         //_rb.AddForce(new Vector3(0, _gravity, 0), ForceMode.Acceleration);
         GatherInput();
-        MoveRocket();
         FuelChecker();
+        MoveRocket();
         SuperSpeed();
         RocketEngineOnOf();
         if (Input.GetKeyDown(KeyCode.Space) && _engineOn)
@@ -136,10 +136,14 @@ public class PlayerBehaviour : MonoBehaviour
     {
         float percentage = _elapsedTime / 1.5f;
         percentage = Mathf.Clamp01(percentage);
-        Quaternion toRot = Quaternion.Euler(_rotationY, _rotationX, _rb.rotation.z);
+        //Quaternion toRot = Quaternion.Euler(_rotationY, _rotationX, _rb.rotation.z);
 
-        Quaternion rotation = Quaternion.Lerp(_rb.rotation, toRot, percentage);
-        _rb.rotation = rotation;
+        //Quaternion rotation = Quaternion.Lerp(_rb.rotation, toRot, percentage);
+        //_rb.rotation = rotation;
+        Quaternion toRot = Quaternion.Euler(_rotationY, _rotationX, transform.rotation.z);
+
+        Quaternion rotation = Quaternion.Lerp(transform.rotation, toRot, percentage);
+        transform.rotation = rotation;
     }
     private void RocketEngineOnOf()
     {

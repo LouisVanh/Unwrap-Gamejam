@@ -25,10 +25,16 @@ public class Explode : MonoBehaviour
         {
             //Debug.Log("Hit");
             StartCoroutine(PlayExplosion());
-            _player.SetActive(false);
+            //_player.SetActive(false);
+            
         }
         
 
+    }
+    private IEnumerator GetRidOfPlayer()
+    {
+        _player.SetActive(false);
+        yield return new WaitForSeconds(1);
     }
 
     private IEnumerator PlayExplosion()
@@ -66,9 +72,10 @@ public class Explode : MonoBehaviour
             Camera.main.fieldOfView = Mathf.Lerp(Camera.main.fieldOfView, _targetFOV, _lerpSpeedFOV * Time.deltaTime);
             //localposCamstart.z = Mathf.Lerp(localposCamstart.z, localposCamtarget.z, _lerpSpeedCameraDistance);
             ////_camera.localPosition = localposCamstart;
-            _camera.position = Vector3.Lerp(_camera.position, localposCamtarget, _lerpSpeedCameraDistance * Time.deltaTime);
+            _camera.position = Vector3.Lerp(_camera.position, localposCamtarget, _lerpSpeedCameraDistance * Time.deltaTime);          
             yield return null;
         }
+        _player.SetActive(false);
 
         yield return new WaitForSeconds(10f);
 
