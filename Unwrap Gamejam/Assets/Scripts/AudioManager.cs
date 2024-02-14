@@ -16,7 +16,7 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AudioClip _homingStart;
     // could put homing beep beep too?
 
-    [Header("AudioSources")]
+    [Header("AudioSources (Debug, don't assign)")]
     [SerializeField] private AudioSource _rocketAudio;
     [SerializeField] private AudioSource _cameraAudio;
 
@@ -32,6 +32,7 @@ public class AudioManager : MonoBehaviour
         _rocketAudio = GameObject.FindWithTag("Player").GetComponent<AudioSource>();
         _cameraAudio = Camera.main.GetComponent<AudioSource>();
         PlayLaunchSequence();
+        StartRocketFlyingSound();
     }
 
     public void PlayLaunchSequence()
