@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Pickup
   - Ground
+  - Settings
+  - Menu
   layers:
   - Default
   - TransparentFX
