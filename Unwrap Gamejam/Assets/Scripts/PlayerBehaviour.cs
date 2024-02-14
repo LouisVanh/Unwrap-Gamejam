@@ -26,6 +26,7 @@ public class PlayerBehaviour : MonoBehaviour
     public bool IsOn = true;
     private bool _engineOn = true;
     private float _cruiseSpeed = 110;
+    private float _fuelBurnRate = -5;
 
     private void Awake()
     {
@@ -47,6 +48,7 @@ public class PlayerBehaviour : MonoBehaviour
         //_rb.AddForce(new Vector3(0, _gravity, 0), ForceMode.Acceleration);
         GatherInput();
         MoveRocket();
+        FuelChecker();
         RocketEngineOnOf();
         if (Input.GetKeyDown(KeyCode.Space) && _engineOn)
         {
@@ -60,7 +62,7 @@ public class PlayerBehaviour : MonoBehaviour
         }
         if (_isFlying)
         {
-            _fuel.AddFuel(-1 * Time.deltaTime);
+            _fuel.AddFuel(_fuelBurnRate * Time.deltaTime);
             //Debug.Log($"do I have fuel?: {_fuel.HasFuel}");
         }
     }
@@ -86,6 +88,14 @@ public class PlayerBehaviour : MonoBehaviour
         //_moveDirection = Vector3.Normalize(direction) * Speed;
         //_rb.AddForce(_moveDirection, ForceMode.Impulse);
 
+    }
+    private void FuelChecker()
+    {
+        if(!_fuel.HasFuel)
+        {
+            IsOn= false;
+            _rb.drag = 0f;
+        }
     }
     private void CalculateGravity()
     {
