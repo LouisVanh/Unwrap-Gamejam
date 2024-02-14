@@ -6,6 +6,7 @@ public class Explode : MonoBehaviour
 {
     [SerializeField] private GameObject _prefabBig;
     [SerializeField] private GameObject _prefabSmall;
+    private GameObject _player;
 
     [SerializeField] private Transform _camera;
     [SerializeField] private float _targetFOV = 70f;
@@ -15,15 +16,19 @@ public class Explode : MonoBehaviour
 
     private void Start()
     {
+        _player = GameObject.Find("Player");
         _camera = Camera.main.transform;
     }
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Ground")
+        if (collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Missle")
         {
             //Debug.Log("Hit");
             StartCoroutine(PlayExplosion());
+            _player.SetActive(false);
         }
+        
+
     }
 
     private IEnumerator PlayExplosion()
