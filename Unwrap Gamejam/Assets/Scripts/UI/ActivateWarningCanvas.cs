@@ -6,7 +6,7 @@ public class ActivateWarningCanvas : MonoBehaviour
 {
     void Start()
     {
-        GetComponent<Canvas>().enabled = false;
+        DisableCanvas();
     }
 
 
