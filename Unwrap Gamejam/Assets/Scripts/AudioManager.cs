@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AudioManager : MonoBehaviour
 {
@@ -26,9 +27,45 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private float _ambientVolume;
 
 
+    public static AudioManager Instance;
+    [SerializeField] Slider volumeSlider;
 
+    private void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this.gameObject);
+            return;
+        }
+        Instance = this;
+        DontDestroyOnLoad(this);
+    }
+    public void ChangeVolume()
+    {
+        AudioListener.volume = volumeSlider.value;
+        Save();
+    }
+
+    public void Save()
+    {
+        PlayerPrefs.SetFloat("musicVolume", volumeSlider.value);
+    }
+
+    public void SetSliderToCorrectAmount()
+    {
+        volumeSlider.value = PlayerPrefs.GetFloat("musicVolume");
+    }
     void Start()
     {
+        if (!PlayerPrefs.HasKey("musicVolume"))
+        {
+            PlayerPrefs.SetFloat("musicVolume", 1);
+            SetSliderToCorrectAmount();
+        }
+        else
+        {
+            SetSliderToCorrectAmount();
+        }
         _rocketAudio = GameObject.FindWithTag("Player").GetComponent<AudioSource>();
         _cameraAudio = Camera.main.GetComponent<AudioSource>();
         PlayLaunchSequence();
