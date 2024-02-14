@@ -58,7 +58,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5377358, g: 0.5199804, b: 0.5199804, a: 1}
+  m_Color: {r: 0.3490566, g: 0.31448025, b: 0.31448025, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.65031385, g: 0.6603774, b: 0.15263441, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -275,7 +275,7 @@ GameObject:
   - component: {fileID: 5247244778439325714}
   - component: {fileID: 7341644656173889918}
   m_Layer: 5
-  m_Name: main slider
+  m_Name: MainVolumeSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -356,7 +356,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
-        m_MethodName: SaveSliders
+        m_MethodName: ChangeVolumes
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

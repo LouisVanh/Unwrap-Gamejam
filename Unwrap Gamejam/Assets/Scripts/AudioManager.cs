@@ -22,10 +22,10 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AudioSource _rocketAudio;
     [SerializeField] private AudioSource _cameraAudio;
 
-    [Header("Volume")] // implement todo (when sliders are here)
-    [SerializeField] private float _mainVolume;
-    [SerializeField] private float _sfxVolume;
-    [SerializeField] private float _ambientVolume;
+    //[Header("Volume")] // implement todo (when sliders are here)
+    //[SerializeField] private float _mainVolume;
+    //[SerializeField] private float _sfxVolume;
+    //[SerializeField] private float _ambientVolume;
 
 
     public static AudioManager Instance;
@@ -33,9 +33,9 @@ public class AudioManager : MonoBehaviour
     [SerializeField] AudioSource _menuAudio;
     [SerializeField] private AudioClip _clipGame;
     [SerializeField] private AudioClip _clipMenu;
-    [SerializeField] private Slider _sfxVolumeSlider;
-    [SerializeField] private Slider _mainVolumeSlider;
-    [SerializeField] private Slider _ambientVolumeSlider;
+    public Slider SFXVolumeSlider;
+    public Slider MainVolumeSlider;
+    public Slider AmbientVolumeSlider;
 
 
     private void Awake()
@@ -57,9 +57,9 @@ public class AudioManager : MonoBehaviour
 
         if (!PlayerPrefs.HasKey("sfxVolume") || !PlayerPrefs.HasKey("mainVolume") || !PlayerPrefs.HasKey("ambientVolume")) //if the sliders aren't set yet
         {
-            PlayerPrefs.SetFloat("sfxVolume", 1);
-            PlayerPrefs.SetFloat("mainVolume", 1);
-            PlayerPrefs.SetFloat("ambientVolume", 1);
+            PlayerPrefs.SetFloat("sfxVolume", 0.9f);
+            PlayerPrefs.SetFloat("mainVolume", 0.8f);
+            PlayerPrefs.SetFloat("ambientVolume", 0.8f);
         }
         LoadSliders();
 
@@ -95,23 +95,31 @@ public class AudioManager : MonoBehaviour
     #region Volume shenanigans
     public void ChangeVolumes()
     {
-        AudioListener.volume = _mainVolumeSlider.value;
+        AudioListener.volume = MainVolumeSlider.value;
         SaveSliders();
     }
+    //private void LinkSliders() // was suppossed to attach the stuff onto the audiomanager, but its broken and settings are cancelled in main scene
+    //{
+    //    // when settings open, (re)link the sliders to the audiomanager
+    //    AudioManager.Instance.AmbientVolumeSlider = GameObject.Find("AmbientVolumeSlider").GetComponent<Slider>();
+    //    AudioManager.Instance.SFXVolumeSlider = GameObject.Find("SFXVolumeSlider").GetComponent<Slider>();
+    //    AudioManager.Instance.MainVolumeSlider = GameObject.Find("MainVolumeSlider").GetComponent<Slider>();
+    //}
     public void LoadSliders()
     {
-        if (_mainVolumeSlider)
-        _mainVolumeSlider.value = PlayerPrefs.GetFloat("mainVolume");
-        if (_sfxVolumeSlider)
-        _sfxVolumeSlider.value = PlayerPrefs.GetFloat("sfxVolume");
-        if (_ambientVolumeSlider)
-        _ambientVolumeSlider.value = PlayerPrefs.GetFloat("ambientVolume");
+        //LinkSliders();
+        if (MainVolumeSlider)
+            MainVolumeSlider.value = PlayerPrefs.GetFloat("mainVolume");
+        if (SFXVolumeSlider)
+            SFXVolumeSlider.value = PlayerPrefs.GetFloat("sfxVolume");
+        if (AmbientVolumeSlider)
+            AmbientVolumeSlider.value = PlayerPrefs.GetFloat("ambientVolume");
     }
     public void SaveSliders()
     {
-        PlayerPrefs.SetFloat("mainVolume", _mainVolumeSlider.value);
-        PlayerPrefs.SetFloat("sfxVolume", _sfxVolumeSlider.value);
-        PlayerPrefs.SetFloat("ambientVolume", _ambientVolumeSlider.value);
+        PlayerPrefs.SetFloat("mainVolume", MainVolumeSlider.value);
+        PlayerPrefs.SetFloat("sfxVolume", SFXVolumeSlider.value);
+        PlayerPrefs.SetFloat("ambientVolume", AmbientVolumeSlider.value);
     }
     #endregion
 
