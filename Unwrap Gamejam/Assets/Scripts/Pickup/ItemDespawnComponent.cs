@@ -10,7 +10,7 @@ public class ItemDespawnComponent : MonoBehaviour
     [SerializeField, Tooltip("Time between flashes in seconds")] private float _flashInterval = 0.2f;
     [SerializeField, Tooltip("Shortens time between flashes in seconds")] private float _flashIntervalAcelerator = 0.0f;
     [SerializeField, Tooltip("Minimum time between flashes in seconds")] private float _minFlashInterval = 0.1f;
-    [SerializeField] private List<Renderer> _flashItems = new List<Renderer>();
+    [SerializeField] private List<Renderer> _flashItems;
 
     private MeshRenderer _meshRenderer;
     private bool _isFlashing;
@@ -19,6 +19,7 @@ public class ItemDespawnComponent : MonoBehaviour
 
     private void Awake()
     {
+        _flashItems = new List<Renderer>();
         _meshRenderer = GetComponentInChildren<MeshRenderer>();
         if (_meshRenderer == null)
         {
@@ -40,7 +41,7 @@ public class ItemDespawnComponent : MonoBehaviour
                 {
 
                     item.enabled = !item.enabled;
-                }                                    
+                }
                 _flashTimer = _flashInterval;
 
                 if ((_flashInterval - _flashIntervalAcelerator) > _minFlashInterval)
