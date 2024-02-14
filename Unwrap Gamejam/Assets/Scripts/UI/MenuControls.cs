@@ -51,6 +51,7 @@ public class UI_Script : MonoBehaviour
             _menu.enabled = _settings.enabled ? true : false;
         }
         _settings.enabled = _settings.enabled ? false : true;
+        Time.timeScale = _settings.enabled ? 0 : 1;
 
         //Invoke(nameof(LinkSliders),1);
 
