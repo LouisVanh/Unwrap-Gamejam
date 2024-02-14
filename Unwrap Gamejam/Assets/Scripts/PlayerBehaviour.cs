@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,6 +12,8 @@ public class PlayerBehaviour : MonoBehaviour
     [SerializeField] private GameObject _trailPos;
     [SerializeField] private GameObject _trail;
     [SerializeField] private GameObject _mesh;
+    [SerializeField] private GameObject _superSpeedVFX1;
+    [SerializeField] private GameObject _superSpeedVFX2;
     private float _meshRotSpeed = 70;
     private Rigidbody _rb;
     private Vector3 _moveDirection;
@@ -27,9 +30,14 @@ public class PlayerBehaviour : MonoBehaviour
     private bool _engineOn = true;
     private float _cruiseSpeed = 110;
     private float _fuelBurnRate = -5;
+    private bool _reachedSpeed = false;
+
+    private event EventHandler PlaySuperSpeedParticle;
 
     private void Awake()
     {
+        _superSpeedVFX1.GetComponent<ParticleSystem>().Play();
+        _superSpeedVFX2.GetComponent<ParticleSystem>().Play();
         _rb = GetComponent<Rigidbody>();
         _fuel = GetComponent<Fuel>();
         Cursor.lockState = CursorLockMode.Locked;
@@ -37,11 +45,19 @@ public class PlayerBehaviour : MonoBehaviour
         _fuel.AddFuel(100); //max fuel
         _trail = GameObject.Instantiate(_trailVFX, _trailPos.transform.position, transform.rotation, transform);
         _mouseSens = 5; //remove when we have final value, it's in the serializefield!
+        //PlaySuperSpeedParticle += PlayerBehaviour_PlaySuperSpeedParticle;
+        
     }
 
+    //private void PlayerBehaviour_PlaySuperSpeedParticle(object sender, EventArgs e)
+    //{
+    //    _superSpeedVFX1.GetComponent<ParticleSystem>().Play();
+    //    _superSpeedVFX2.GetComponent<ParticleSystem>().Play();
+    //}
 
     void Update()
     {
+
         _mesh.transform.Rotate(0, 0, _meshRotSpeed * Time.deltaTime);
         Debug.Log(_rb.velocity.magnitude);
         //_rb.velocity = transform.forward * Speed;
@@ -49,6 +65,7 @@ public class PlayerBehaviour : MonoBehaviour
         GatherInput();
         MoveRocket();
         FuelChecker();
+        SuperSpeed();
         RocketEngineOnOf();
         if (Input.GetKeyDown(KeyCode.Space) && _engineOn)
         {
@@ -88,6 +105,13 @@ public class PlayerBehaviour : MonoBehaviour
         //_moveDirection = Vector3.Normalize(direction) * Speed;
         //_rb.AddForce(_moveDirection, ForceMode.Impulse);
 
+    }
+    private void SuperSpeed()
+    {
+        if (_rb.velocity.magnitude >= 85)
+        {
+            PlaySuperSpeedParticle?.Invoke(this, EventArgs.Empty);
+        }
     }
     private void FuelChecker()
     {
