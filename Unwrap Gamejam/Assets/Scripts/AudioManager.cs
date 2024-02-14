@@ -71,7 +71,7 @@ public class AudioManager : MonoBehaviour
     }
     public IEnumerator AttachAndPlayRocketSounds()
     {
-        yield return new WaitForSeconds(3.2f);
+        yield return new WaitForSeconds(1f);
         _rocketAudio = GameObject.FindWithTag("Player").GetComponent<AudioSource>();
         _cameraAudio = Camera.main.GetComponent<AudioSource>();
         PlayLaunchSequence();
