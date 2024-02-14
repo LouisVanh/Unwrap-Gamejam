@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class UI_Script : MonoBehaviour
 {
@@ -50,5 +51,22 @@ public class UI_Script : MonoBehaviour
             _menu.enabled = _settings.enabled ? true : false;
         }
         _settings.enabled = _settings.enabled ? false : true;
+
+        Invoke(nameof(LinkSliders),1);
+
+    }
+
+    private void LinkSliders()
+    {
+        // when settings open, (re)link the sliders to the audiomanager
+        //AudioManager.Instance.AmbientVolumeSlider = GameObject.Find("AmbientVolumeSlider").GetComponent<Slider>();
+        //AudioManager.Instance.SFXVolumeSlider = GameObject.Find("SFXVolumeSlider").GetComponent<Slider>();
+        //AudioManager.Instance.MainVolumeSlider = GameObject.Find("MainVolumeSlider").GetComponent<Slider>();
+    }
+
+    public void UpdateSlider()
+    {
+        AudioManager.Instance.ChangeVolumes();
+        Debug.Log("KILL YOURSELF");
     }
 }
