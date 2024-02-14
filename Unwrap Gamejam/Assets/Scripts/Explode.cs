@@ -59,10 +59,7 @@ public class Explode : MonoBehaviour
             yield return null;
         }
         yield return new WaitForSeconds(10f);
-        
+
         // show end screen (with stats of % destruction?)
     }
-
-
-
 }
