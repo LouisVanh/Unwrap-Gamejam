@@ -22,7 +22,7 @@ public class PlayerBehaviour : MonoBehaviour
     private bool _isFlying = true; // turn to true on launch, just true now for testing
     private float _maxRotation = 5f;
     [SerializeField] private float _mouseSens;
-    private float _gravity = -6f;
+    private float _gravity = -10f;
     public bool IsOn = true;
     private bool _engineOn = true;
     private float _cruiseSpeed = 100;
@@ -42,9 +42,9 @@ public class PlayerBehaviour : MonoBehaviour
     void Update()
     {
         _mesh.transform.Rotate(0, 0, _meshRotSpeed * Time.deltaTime);
-        //Debug.Log(_rb.velocity.magnitude);
+        Debug.Log(_rb.velocity.magnitude);
         //_rb.velocity = transform.forward * Speed;
-        _rb.AddForce(new Vector3(0, _gravity, 0), ForceMode.Acceleration);
+        //_rb.AddForce(new Vector3(0, _gravity, 0), ForceMode.Acceleration);
         GatherInput();
         MoveRocket();
         RocketEngineOnOf();
@@ -73,7 +73,7 @@ public class PlayerBehaviour : MonoBehaviour
             _rb.velocity += transform.forward * Speed;
             if (_rb.velocity.magnitude > _cruiseSpeed)
             {
-                _rb.velocity -= new Vector3(50f, 0, 50f) * Time.fixedDeltaTime;
+                _rb.velocity -= transform.forward * Speed * Time.fixedDeltaTime * 4;
             }
             else
             {
@@ -81,10 +81,15 @@ public class PlayerBehaviour : MonoBehaviour
             }
 
         }
+        CalculateGravity();
         //Vector3 direction = transform.forward;
         //_moveDirection = Vector3.Normalize(direction) * Speed;
         //_rb.AddForce(_moveDirection, ForceMode.Impulse);
 
+    }
+    private void CalculateGravity()
+    {
+        _rb.velocity -= Vector3.down * _gravity * Time.deltaTime;
     }
     private void GatherInput()
     {
@@ -107,7 +112,7 @@ public class PlayerBehaviour : MonoBehaviour
         if (IsOn)
         {
             _trail.SetActive(true);
-            Speed = 3;
+            Speed = 2;
 
         }
         if (!IsOn)
