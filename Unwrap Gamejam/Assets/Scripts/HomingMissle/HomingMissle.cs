@@ -5,29 +5,41 @@ using UnityEngine;
 
 public class HomingMissle : MonoBehaviour
 {
-    private float _speed = 110;
-    private float _rotateSpeed = 50;
+    private float _speed = 100;
+    private float _rotateSpeed = 35;
     private Rigidbody _rb;
-    private GameObject _player;
+    public GameObject _player;
     private Vector3 _heading;
     private Quaternion _rotation;
     [SerializeField] private GameObject _explosionVFX;
     private GameObject _explosion;
+    private bool _foundPlayer;
     void Start()
     {
-       _rb = GetComponent<Rigidbody>();
-       _player = GameObject.Find("Player");
+        _rb = GetComponent<Rigidbody>();
+        _player = GameObject.Find("Player");
     }
 
-    
+
     void Update()
     {
-        
+        if (_player == null)
+        {
+            _player = GameObject.Find("Player");
+        }
+        else 
+        {
+            _foundPlayer = true;
+        }
     }
     private void FixedUpdate()
     {
-        Thurst();
-        RotateMissle();
+        if (_foundPlayer)
+        {
+            Thurst();
+            RotateMissle();
+
+        }
     }
     private void Thurst()
     {
