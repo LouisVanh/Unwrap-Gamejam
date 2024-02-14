@@ -17,6 +17,6 @@ public class FOV : MonoBehaviour
     {
         var speed = _rb.velocity.magnitude * _rb.velocity.magnitude;
         //Debug.Log(speed);
-        Camera.main.fieldOfView = Mathf.Clamp(speed / 10000 * 50, 50, 140); // lerp fov between 30 (very start / crash) and 125ish (top speed going straight down)
+        Camera.main.fieldOfView = Mathf.Clamp(speed / 10000 * 50, 60, 145); // lerp fov between 30 (very start / crash) and 125ish (top speed going straight down)
     }
 }
