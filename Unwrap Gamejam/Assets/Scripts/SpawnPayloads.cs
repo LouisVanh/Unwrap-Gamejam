@@ -9,7 +9,7 @@ public class SpawnPayloads : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Spawn(1000);
+        Spawn(100);
     }
 
     private void Spawn(int amount)
@@ -17,10 +17,11 @@ public class SpawnPayloads : MonoBehaviour
         for (int i = 0; i < amount; i++)
         {
             float x = Random.Range(-1000, 1000);
-            float y = Random.Range(-1000, 1000);
-            float z = Random.Range(100, 1000);
+            float z = Random.Range(-1000, 1000);
+            float y = Random.Range(100, 1000);
 
-            Instantiate(_payload, new Vector3(x, y, z), Quaternion.identity);
+            Vector3 SpawnLocation = new Vector3(transform.position.x + x, transform.position.y + y, transform.position.z +z);
+            Instantiate(_payload, SpawnLocation, Quaternion.identity);
         }
     }
 }

@@ -59,7 +59,7 @@ public class PlayerBehaviour : MonoBehaviour
     {
 
         _mesh.transform.Rotate(0, 0, _meshRotSpeed * Time.deltaTime);
-        Debug.Log(_rb.velocity.magnitude);
+        //Debug.Log(_rb.velocity.magnitude);
         //_rb.velocity = transform.forward * Speed;
         //_rb.AddForce(new Vector3(0, _gravity, 0), ForceMode.Acceleration);
         GatherInput();
