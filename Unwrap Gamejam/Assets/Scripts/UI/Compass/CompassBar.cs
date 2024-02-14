@@ -16,9 +16,21 @@ public class CompassBar: MonoBehaviour
     [SerializeField] private GameObject _eastMarker;
 
     [SerializeField] private Transform _cameraobjectTransform;
-    [SerializeField] private Transform _objectiveObjectTransform;
+
+
+    private Transform _objectiveObjectTransform;
 
     [SerializeField] private float _angleOfDisapearing = 90;
+
+    private void OnEnable()
+    {
+        RandomisePoint.OnTargetSet += SetTarget;
+    }
+
+    private void OnDisable()
+    {
+        RandomisePoint.OnTargetSet -= SetTarget;
+    }
 
     void Update()
     {
@@ -53,5 +65,10 @@ public class CompassBar: MonoBehaviour
         {
             marker.GetComponent<Text>().enabled = true;
         }
+    }
+
+    public void SetTarget(GameObject target)
+    {
+        _objectiveObjectTransform = target.transform;
     }
 }
