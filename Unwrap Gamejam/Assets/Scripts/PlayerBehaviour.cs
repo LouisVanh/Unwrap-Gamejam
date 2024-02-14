@@ -199,7 +199,7 @@ public class PlayerBehaviour : MonoBehaviour
     }
     private void IncreasePayload()
     {
-        _sizeMultiplier = _payload / 100;
+        _sizeMultiplier = _payload / 200;
         transform.localScale += new Vector3(_sizeMultiplier, _sizeMultiplier, _sizeMultiplier);
         _trailVFX.transform.localScale += new Vector3(_sizeMultiplier, _sizeMultiplier, _sizeMultiplier);
     }
