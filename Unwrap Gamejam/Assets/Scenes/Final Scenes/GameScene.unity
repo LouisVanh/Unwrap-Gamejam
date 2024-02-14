@@ -62071,8 +62071,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef95c812c95fd77469e6a4806f044afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _prefab: {fileID: 4327928718051132521, guid: d3781211f9c42d44ba9ef4a3ae0301e4, type: 3}
-  _spawnDelay: 5
+  _prefab: {fileID: 8386177628346571143, guid: 66223384bc6f5d8449780c2a61ff2f88, type: 3}
+  _spawnDelay: 10
 --- !u!4 &1666310744
 Transform:
   m_ObjectHideFlags: 0
