@@ -76,7 +76,7 @@ public class PlayerBehaviour : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(_payload);
+        //Debug.Log(_payload);
         _mesh.transform.Rotate(0, 0, _meshRotSpeed * Time.deltaTime);
         //Debug.Log(_rb.velocity.magnitude);
         //_rb.velocity = transform.forward * Speed;
