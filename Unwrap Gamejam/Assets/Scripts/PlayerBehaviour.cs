@@ -2,8 +2,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Net;
-using UnityEditor.Rendering;
-using UnityEditor.Search;
 using UnityEngine;
 
 [RequireComponent(typeof(Fuel))]
