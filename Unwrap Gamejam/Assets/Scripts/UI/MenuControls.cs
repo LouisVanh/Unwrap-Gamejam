@@ -10,6 +10,11 @@ public class UI_Script : MonoBehaviour
     private Canvas _menu = null;
 
     public Slider _slider = null;
+
+
+    private bool _isInEndScreen = false;
+
+
     private void Start()
     {
         // make sure the settings canvas has the settings tag!
@@ -21,9 +26,20 @@ public class UI_Script : MonoBehaviour
         }
 
     }
+
+    private void OnEnable()
+    {
+        Explode.OnRocketExploded += SetIsInEndScreen;
+    }
+
+    private void OnDisable()
+    {
+        Explode.OnRocketExploded -= SetIsInEndScreen;
+    }
+
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) && _isInEndScreen)
         {
             Settings();
         }
@@ -85,4 +101,9 @@ public class UI_Script : MonoBehaviour
     //    AudioManager.Instance.ChangeVolumes();
     //    Debug.Log("KILL YOURSELF");
     //}
+
+    private void SetIsInEndScreen()
+    {
+        _isInEndScreen = true;
+    }
 }
