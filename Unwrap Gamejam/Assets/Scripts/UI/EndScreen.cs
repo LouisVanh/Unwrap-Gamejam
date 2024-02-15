@@ -31,12 +31,12 @@ public class EndScreen : MonoBehaviour
 
     private void OnDisable()
     {
-        Explode.OnRocketExploded += EnableEndScreen;
+        Explode.OnRocketExploded -= EnableEndScreen;
     }
 
     private void EnableEndScreen()
     {
-       StartCoroutine(EnableEndscreenDelayed());        
+       StartCoroutine(EnableEndscreenDelayed());
     }
 
     private IEnumerator EnableEndscreenDelayed()
@@ -55,7 +55,8 @@ public class EndScreen : MonoBehaviour
     public void ReloadScene()
     {
         Scene scene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(scene.name);        
+        SceneManager.LoadScene(scene.name);
+        AudioManager.Instance.PleaseStartAttachingAudio();
     }
 
     private void UpdateScore(float score)

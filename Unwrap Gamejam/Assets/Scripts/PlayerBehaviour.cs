@@ -2,8 +2,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Net;
-using UnityEditor.Rendering;
-using UnityEditor.Search;
 using UnityEngine;
 
 //[RequireComponent(typeof(Fuel))]
@@ -54,12 +52,21 @@ public class PlayerBehaviour : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         _fuel.AddFuel(100); //max fuel
-        PickupComponent.OnAddPayload += PickupComponent_OnAddPayload;
         _trail = GameObject.Instantiate(_trailVFX, _trailPos.transform.position, transform.rotation, transform);
         //_mouseSens = 5; //remove when we have final value, it's in the serializefield!
         //PlaySuperSpeedParticle += PlayerBehaviour_PlaySuperSpeedParticle;
         _originScale = transform.localScale;
         
+    }
+
+    private void OnEnable()
+    {
+        PickupComponent.OnAddPayload += PickupComponent_OnAddPayload;
+    }
+
+    private void OnDisable()
+    {
+        PickupComponent.OnAddPayload -= PickupComponent_OnAddPayload;
     }
 
     private void PickupComponent_OnAddPayload(float value)
@@ -76,7 +83,7 @@ public class PlayerBehaviour : MonoBehaviour
 
     void Update()
     {
-        //Debug.Log(_payload);
+        Debug.Log(_payload);
         _mesh.transform.Rotate(0, 0, _meshRotSpeed * Time.deltaTime);
         //Debug.Log(_rb.velocity.magnitude);
         //_rb.velocity = transform.forward * Speed;
