@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Net;
+using UnityEditor.Rendering;
 using UnityEditor.Search;
 using UnityEngine;
 
@@ -39,6 +40,7 @@ public class PlayerBehaviour : MonoBehaviour
     [SerializeField] private float _mouseSensitivity = 30f;
     private Vector3 _aplhaRotation;
     public float _sizeMultiplier;
+    public Vector3 _originScale;
 
     private event EventHandler PlaySuperSpeedParticle;
 
@@ -55,6 +57,7 @@ public class PlayerBehaviour : MonoBehaviour
         _trail = GameObject.Instantiate(_trailVFX, _trailPos.transform.position, transform.rotation, transform);
         //_mouseSens = 5; //remove when we have final value, it's in the serializefield!
         //PlaySuperSpeedParticle += PlayerBehaviour_PlaySuperSpeedParticle;
+        _originScale = transform.localScale;
         
     }
 
@@ -79,7 +82,6 @@ public class PlayerBehaviour : MonoBehaviour
         //_rb.AddForce(new Vector3(0, _gravity, 0), ForceMode.Acceleration);
         
         GatherInput();
-        MoveRocket();
         FuelChecker();
         SuperSpeed();
         RocketEngineOnOf();
@@ -102,6 +104,7 @@ public class PlayerBehaviour : MonoBehaviour
     private void FixedUpdate()
     {
         _elapsedTime = Time.fixedDeltaTime;
+        MoveRocket();
         
         if (IsOn)
         {
@@ -149,9 +152,10 @@ public class PlayerBehaviour : MonoBehaviour
     }
     private void GatherInput()
     {
-        
-        _moveX = Input.GetAxis("Mouse X") /2;
-        _moveY = Input.GetAxis("Mouse Y") /2;
+
+        _moveX = Input.GetAxis("Mouse X") / 2;
+        _moveY = Input.GetAxis("Mouse Y") / 2;
+
 
 
         _rotationX += _moveX;
@@ -167,20 +171,22 @@ public class PlayerBehaviour : MonoBehaviour
     }
     private void MoveRocket()
     {
-        float percentage = _elapsedTime / 1.5f;
+        float percentage = _elapsedTime * 1.4f ;
         percentage = Mathf.Clamp01(percentage);
         Quaternion toRot = Quaternion.Euler(_rotationY, _rotationX, _rb.rotation.z);
         //Quaternion newRot = _rb.rotation * toRot;
 
         Quaternion rotation = Quaternion.Lerp(_rb.rotation, toRot, percentage);
-        //_rb.rotation = rotation;
+        _rb.rotation = rotation;
 
         _rb.MoveRotation(rotation);
 
-        //_aplhaRotation = new Vector3(_moveY, _moveX, 0) * _mouseSensitivity;
+        //_aplhaRotation = new Vector3(_moveY, _moveX, 0) *_mouseSensitivity;
         //Quaternion deltaRotation = Quaternion.Euler(_aplhaRotation);
         //Quaternion targetRotation = _rb.rotation * deltaRotation;
-        //Quaternion toRot = Quaternion.Lerp(_rb.rotation, targetRotation, 1 * Time.fixedDeltaTime);
+
+        ////Quaternion toRot = Quaternion.Lerp(_rb.rotation, targetRotation, 1);
+        //Quaternion toRot = Quaternion.Slerp(_rb.rotation, targetRotation, 2 * Time.fixedDeltaTime);
         //_rb.MoveRotation(toRot);
     }
     private void RocketEngineOnOf()
@@ -200,7 +206,8 @@ public class PlayerBehaviour : MonoBehaviour
     private void IncreasePayload()
     {
         _sizeMultiplier = _payload / 200;
-        transform.localScale += new Vector3(_sizeMultiplier, _sizeMultiplier, _sizeMultiplier);
+        Vector3 multiplier = new Vector3(_originScale.x / 10, _originScale.y / 10, _originScale.z / 10);
+        transform.localScale += multiplier;
         _trailVFX.transform.localScale += new Vector3(_sizeMultiplier, _sizeMultiplier, _sizeMultiplier);
     }
 }
