@@ -831,7 +831,13 @@ PlayerSettings:
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
   cloudServicesEnabled:
+    Build: 0
+    Game Performance: 0
+    Legacy Analytics: 0
+    Purchasing: 0
+    UDP: 0
     UNet: 1
+    Unity Ads: 0
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -851,11 +857,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: f476ef36-15f2-437e-8e10-ecd7180bcbf1
+  cloudProjectId: e6f2b13c-b75e-4977-b608-74784e135e40
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: Unwrap Gamejam
-  organizationId: tele_dev
+  organizationId: szil4rd
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
