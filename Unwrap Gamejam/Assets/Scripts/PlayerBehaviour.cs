@@ -52,12 +52,21 @@ public class PlayerBehaviour : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         _fuel.AddFuel(100); //max fuel
-        PickupComponent.OnAddPayload += PickupComponent_OnAddPayload;
         _trail = GameObject.Instantiate(_trailVFX, _trailPos.transform.position, transform.rotation, transform);
         //_mouseSens = 5; //remove when we have final value, it's in the serializefield!
         //PlaySuperSpeedParticle += PlayerBehaviour_PlaySuperSpeedParticle;
         _originScale = transform.localScale;
         
+    }
+
+    private void OnEnable()
+    {
+        PickupComponent.OnAddPayload += PickupComponent_OnAddPayload;
+    }
+
+    private void OnDisable()
+    {
+        PickupComponent.OnAddPayload -= PickupComponent_OnAddPayload;
     }
 
     private void PickupComponent_OnAddPayload(float value)
