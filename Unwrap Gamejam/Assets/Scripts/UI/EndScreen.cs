@@ -26,12 +26,12 @@ public class EndScreen : MonoBehaviour
 
     private void OnEnable()
     {
-        
+        Explode.OnRocketExploded += EnableEndScreen;
     }
 
     private void OnDisable()
     {
-        
+        Explode.OnRocketExploded += EnableEndScreen;
     }
 
     private void EnableEndScreen()

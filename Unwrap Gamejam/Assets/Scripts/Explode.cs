@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static Explode;
 
 public class Explode : MonoBehaviour
 {
@@ -15,6 +16,13 @@ public class Explode : MonoBehaviour
     [SerializeField] private float _lerpSpeedCameraDistance = 1f;
     [SerializeField] private AudioSource _explosionAudio;
 
+
+    private bool _doOnce = true;
+
+
+    public delegate void RocketExploded();
+    public static event RocketExploded OnRocketExploded;
+
     private void Start()
     {
         _player = GameObject.Find("Player");
@@ -23,9 +31,10 @@ public class Explode : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("Missle") || collision.gameObject.CompareTag("Target"))
+        if ((collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("Missle") || collision.gameObject.CompareTag("Target"))&& _doOnce)
         {
             StartCoroutine(PlayExplosion(collision));
+            _doOnce = false;
             //_player.SetActive(false);
         }
     }
@@ -75,6 +84,8 @@ public class Explode : MonoBehaviour
             yield return null;
         }
         _player.SetActive(false);
+
+        OnRocketExploded?.Invoke();
 
         yield return new WaitForSeconds(10f);
 
