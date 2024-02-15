@@ -39,7 +39,7 @@ public class UI_Script : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape) && _isInEndScreen)
+        if (Input.GetKeyDown(KeyCode.Escape) && !_isInEndScreen)
         {
             Settings();
         }
