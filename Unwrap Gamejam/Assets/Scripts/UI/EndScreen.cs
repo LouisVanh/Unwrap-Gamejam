@@ -31,7 +31,7 @@ public class EndScreen : MonoBehaviour
 
     private void OnDisable()
     {
-        Explode.OnRocketExploded += EnableEndScreen;
+        Explode.OnRocketExploded -= EnableEndScreen;
     }
 
     private void EnableEndScreen()
