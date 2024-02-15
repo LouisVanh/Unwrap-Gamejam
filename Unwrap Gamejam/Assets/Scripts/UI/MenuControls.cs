@@ -8,6 +8,8 @@ public class UI_Script : MonoBehaviour
 {
     private Canvas _settings;
     private Canvas _menu = null;
+
+    public Slider _slider = null;
     private void Start()
     {
         // make sure the settings canvas has the settings tag!
@@ -50,9 +52,17 @@ public class UI_Script : MonoBehaviour
         {
             _menu.enabled = _settings.enabled ? true : false;
         }
+
         _settings.enabled = _settings.enabled ? false : true;
         Time.timeScale = _settings.enabled ? 0 : 1;
+        AudioManager.Instance.LoadSliders();
 
+        if (SceneManager.GetActiveScene() != SceneManager.GetSceneByBuildIndex(0)) // MAIN MENU
+        {
+            Cursor.lockState = _settings.enabled ? CursorLockMode.None : CursorLockMode.Locked;
+            Cursor.visible = _settings.enabled ? true : false;
+        }
+        
         //Invoke(nameof(LinkSliders),1);
 
     }

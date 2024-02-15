@@ -38,7 +38,7 @@ public class Explode : MonoBehaviour
         
         // vfx
         var big = Instantiate(_prefabBig, this.transform.position, Quaternion.identity);
-        big.transform.localScale = _player.GetComponent<PlayerBehaviour>()._sizeMultiplier * 15 * Vector3.one;
+        big.transform.localScale = (_player.GetComponent<PlayerBehaviour>().SizeMultiplier + 0.01f) * 15 * Vector3.one;
         
         //maybe spawn multiple of these around it
         var small = Instantiate(_prefabSmall, this.transform.position, Quaternion.identity);
