@@ -394,7 +394,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3364355333924063418, guid: 5770c3809d1acc24b96b1f39e22470fd, type: 3}
       propertyPath: _amountOfMissles
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3388999423244643677, guid: 5770c3809d1acc24b96b1f39e22470fd, type: 3}
       propertyPath: m_LocalPosition.x

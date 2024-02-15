@@ -46,6 +46,7 @@ public class PlayerBehaviour : MonoBehaviour
 
     private void Awake()
     {
+        //Application.targetFrameRate = 20;
         _superSpeedVFX1.GetComponent<ParticleSystem>().Play();
         _superSpeedVFX2.GetComponent<ParticleSystem>().Play();
         _rb = GetComponent<Rigidbody>();
@@ -171,7 +172,7 @@ public class PlayerBehaviour : MonoBehaviour
     }
     private void MoveRocket()
     {
-        float percentage = _elapsedTime * 1.4f ;
+        float percentage = _elapsedTime * 1.8f ;
         percentage = Mathf.Clamp01(percentage);
         Quaternion toRot = Quaternion.Euler(_rotationY, _rotationX, _rb.rotation.z);
         //Quaternion newRot = _rb.rotation * toRot;
