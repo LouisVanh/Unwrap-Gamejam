@@ -35,9 +35,6 @@ public class Explode : MonoBehaviour
         {
             StartCoroutine(PlayExplosion(collision));
             _doOnce = false;
-
-            OnRocketExploded?.Invoke();
-            Debug.Log("endscreen is active");
             //_player.SetActive(false);
         }
     }
@@ -87,6 +84,10 @@ public class Explode : MonoBehaviour
             yield return null;
         }
         _player.SetActive(false);
+
+        OnRocketExploded?.Invoke();
+
+        yield return new WaitForSeconds(10f);
 
         // show end screen (with stats of % destruction?)
     }

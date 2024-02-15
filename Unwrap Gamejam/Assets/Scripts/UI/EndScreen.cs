@@ -36,7 +36,7 @@ public class EndScreen : MonoBehaviour
 
     private void EnableEndScreen()
     {
-       StartCoroutine(EnableEndscreenDelayed());        
+       StartCoroutine(EnableEndscreenDelayed());
     }
 
     private IEnumerator EnableEndscreenDelayed()
@@ -55,7 +55,8 @@ public class EndScreen : MonoBehaviour
     public void ReloadScene()
     {
         Scene scene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(scene.name);        
+        SceneManager.LoadScene(scene.name);
+        
     }
 
     private void UpdateScore(float score)

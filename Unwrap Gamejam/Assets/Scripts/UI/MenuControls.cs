@@ -67,11 +67,6 @@ public class UI_Script : MonoBehaviour
 
     }
 
-    public void ChangeVolume()
-    {
-        AudioManager.Instance.ChangeVolumes();
-    }
-
     //private void LinkSliders()
     //{
     //    // when settings open, (re)link the sliders to the audiomanager
