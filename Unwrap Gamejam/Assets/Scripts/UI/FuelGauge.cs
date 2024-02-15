@@ -69,6 +69,8 @@ public class FuelGauge : MonoBehaviour
             yield return new WaitForSeconds(_flashDelay);
         }
 
+        _pointerImage.color = startColor;
+        _backgroundImage.color = startColor;
         _doOnce = true;
     }
 }
