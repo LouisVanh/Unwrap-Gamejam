@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4978775524287591029}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Target
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41,9 +41,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4978775524287591029}
     m_Modifications:
+    - target: {fileID: 1683581898, guid: 467832ddce273b24088b9532c62953ee, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 60742743888925026, guid: 467832ddce273b24088b9532c62953ee, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1886921719739992680, guid: 467832ddce273b24088b9532c62953ee, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2586506084768435175, guid: 467832ddce273b24088b9532c62953ee, type: 3}
       propertyPath: m_Name
       value: Mining_machine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2586506084768435175, guid: 467832ddce273b24088b9532c62953ee, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2586506084768435175, guid: 467832ddce273b24088b9532c62953ee, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 2931506048180293981, guid: 467832ddce273b24088b9532c62953ee, type: 3}
       propertyPath: m_LocalScale.x
@@ -88,6 +108,18 @@ PrefabInstance:
     - target: {fileID: 2931506048180293981, guid: 467832ddce273b24088b9532c62953ee, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3165587304816480029, guid: 467832ddce273b24088b9532c62953ee, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5543360850065231021, guid: 467832ddce273b24088b9532c62953ee, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7656116461042262019, guid: 467832ddce273b24088b9532c62953ee, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -150,6 +182,14 @@ PrefabInstance:
     - target: {fileID: 751771064161696735, guid: e4c12614d6b600b4592ced2d18391204, type: 3}
       propertyPath: m_Name
       value: Monument_tower
+      objectReference: {fileID: 0}
+    - target: {fileID: 751771064161696735, guid: e4c12614d6b600b4592ced2d18391204, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 751771064161696735, guid: e4c12614d6b600b4592ced2d18391204, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
