@@ -6,7 +6,7 @@ using UnityEditor.Rendering;
 using UnityEditor.Search;
 using UnityEngine;
 
-[RequireComponent(typeof(Fuel))]
+//[RequireComponent(typeof(Fuel))]
 public class PlayerBehaviour : MonoBehaviour
 {
     [SerializeField] public float Fuel;
