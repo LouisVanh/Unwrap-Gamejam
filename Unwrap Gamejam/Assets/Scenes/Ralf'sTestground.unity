@@ -460,6 +460,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   volumeTrigger: {fileID: 159936098}
   volumeLayer:
+    serializedVersion: 2
     m_Bits: 4294967295
   stopNaNPropagation: 1
   finalBlitToCameraTarget: 0
@@ -469,9 +470,6 @@ MonoBehaviour:
     sharpness: 0.25
     stationaryBlending: 0.95
     motionBlending: 0.85
-    <jitter>k__BackingField: {x: 0, y: 0}
-    m_ResetHistory: 1
-    <sampleIndex>k__BackingField: 0
   subpixelMorphologicalAntialiasing:
     quality: 2
   fastApproximateAntialiasing:
@@ -480,18 +478,21 @@ MonoBehaviour:
   fog:
     enabled: 1
     excludeSkybox: 1
-  dithering:
-    m_NoiseTextureIndex: 0
   debugLayer:
-    lightMeter: {<output>k__BackingField: {fileID: 0}, requested: 0, width: 512, height: 256, showCurves: 1}
-    histogram: {<output>k__BackingField: {fileID: 0}, requested: 0, width: 512, height: 256, channel: 3}
-    waveform: {<output>k__BackingField: {fileID: 0}, requested: 0, exposure: 0.12, height: 256}
-    vectorscope: {<output>k__BackingField: {fileID: 0}, requested: 0, size: 256, exposure: 0.12}
-    frameWidth: 0
-    frameHeight: 0
-    <debugOverlayTarget>k__BackingField: {fileID: 0}
-    <debugOverlayActive>k__BackingField: 0
-    <debugOverlay>k__BackingField: 0
+    lightMeter:
+      width: 512
+      height: 256
+      showCurves: 1
+    histogram:
+      width: 512
+      height: 256
+      channel: 3
+    waveform:
+      exposure: 0.12
+      height: 256
+    vectorscope:
+      size: 256
+      exposure: 0.12
     overlaySettings:
       linearDepth: 0
       motionColorIntensity: 4
@@ -505,17 +506,6 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
-  <cameraDepthFlags>k__BackingField: 0
-  <haveBundlesBeenInited>k__BackingField: 0
-  m_Camera: {fileID: 1351087070}
-  m_SettingsUpdateNeeded: 1
-  m_IsRenderingInSceneView: 0
-  m_NaNKilled: 0
---- !u!20 &1351087070 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 847038259166712199, guid: f1434845c8a7f3f4c99de524c41d3645, type: 3}
-  m_PrefabInstance: {fileID: 1351087067}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1399008420
 GameObject:
   m_ObjectHideFlags: 0
@@ -986,6 +976,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WarningRangeBox
       objectReference: {fileID: 0}
+    - target: {fileID: 3634011732100367628, guid: c3225089013e594428d22e636a9a2df8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7721539847954925276, guid: c3225089013e594428d22e636a9a2df8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1042,6 +1036,10 @@ PrefabInstance:
     - target: {fileID: 2685138628245752394, guid: d816ec843379e4147998a095a901b7b1, type: 3}
       propertyPath: m_Name
       value: WarningCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 2685138628245752394, guid: d816ec843379e4147998a095a901b7b1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5686906434064304516, guid: d816ec843379e4147998a095a901b7b1, type: 3}
       propertyPath: m_Pivot.x
@@ -1136,6 +1134,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4450863221343218779, guid: 890ae1b3770104546a39d91e01637330, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4450863221343218779, guid: 890ae1b3770104546a39d91e01637330, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4450863221343218779, guid: 890ae1b3770104546a39d91e01637330, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580319380594149690, guid: 890ae1b3770104546a39d91e01637330, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580319380594149690, guid: 890ae1b3770104546a39d91e01637330, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5751680928139083167, guid: 890ae1b3770104546a39d91e01637330, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1222,7 +1240,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8333911947018692851, guid: 890ae1b3770104546a39d91e01637330, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8436276624439308271, guid: 890ae1b3770104546a39d91e01637330, type: 3}
       propertyPath: _cameraobjectTransform
