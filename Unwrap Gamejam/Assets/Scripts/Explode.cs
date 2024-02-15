@@ -13,24 +13,29 @@ public class Explode : MonoBehaviour
     [SerializeField] private float _lerpSpeedFOV = 1f;
     [SerializeField] private float _targetCameraDistance = 50f;
     [SerializeField] private float _lerpSpeedCameraDistance = 1f;
+    [SerializeField] private AudioSource _explosionAudio;
 
     private void Start()
     {
         _player = GameObject.Find("Player");
         _camera = Camera.main.transform;
+        _explosionAudio = GameObject.Find("ExplosionSound").GetComponent<AudioSource>();
     }
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("Missle") || collision.gameObject.CompareTag("Target"))
         {
-            StartCoroutine(PlayExplosion());
+            StartCoroutine(PlayExplosion(collision));
             //_player.SetActive(false);
         }
     }
 
-    private IEnumerator PlayExplosion()
+    private IEnumerator PlayExplosion(Collision collision)
     {
         //Debug.Log("BOOM");
+        //calculate score
+        _player.GetComponent<Score>().CalculateScore(collision.transform.position);
+        
         // vfx
         var big = Instantiate(_prefabBig, this.transform.position, Quaternion.identity);
         big.transform.localScale = _player.GetComponent<PlayerBehaviour>()._sizeMultiplier * 15 * Vector3.one;
@@ -39,12 +44,13 @@ public class Explode : MonoBehaviour
         var small = Instantiate(_prefabSmall, this.transform.position, Quaternion.identity);
         small.transform.localScale = 5 * Vector3.one;
 
-        _player.GetComponent<PlayerBehaviour>()._mesh.SetActive(false);
         // cam shake (already here but more)
         // sound
+        _explosionAudio.Play();
         // explosion force
         // terrain deformation
         // disable controls
+        _player.GetComponent<PlayerBehaviour>()._mesh.SetActive(false);
         // camera look at explosion
         // camera lerp to view point (just add some value to the _targetCameraDistance)
 

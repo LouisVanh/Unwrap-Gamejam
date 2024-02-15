@@ -515,6 +515,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointer: {fileID: 8849134961763405097}
+  _minFuel: 25
+  _flashDelay: 0.2
+  _pointerImage: {fileID: 8369555457293497712}
+  _backgroundImage: {fileID: 6410634162139380379}
 --- !u!1 &4102619799754295547
 GameObject:
   m_ObjectHideFlags: 0
