@@ -56,7 +56,7 @@ public class EndScreen : MonoBehaviour
     {
         Scene scene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(scene.name);
-        
+        AudioManager.Instance.PleaseStartAttachingAudio();
     }
 
     private void UpdateScore(float score)

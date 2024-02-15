@@ -86,9 +86,6 @@ public class Explode : MonoBehaviour
         _player.SetActive(false);
 
         OnRocketExploded?.Invoke();
-
-        yield return new WaitForSeconds(10f);
-
         // show end screen (with stats of % destruction?)
     }
 }
