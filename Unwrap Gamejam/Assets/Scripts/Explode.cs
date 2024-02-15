@@ -21,15 +21,11 @@ public class Explode : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Missle")
+        if (collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("Missle") || collision.gameObject.CompareTag("Target"))
         {
-            //Debug.Log("Hit");
             StartCoroutine(PlayExplosion());
             //_player.SetActive(false);
-            
         }
-        
-
     }
 
     private IEnumerator PlayExplosion()

@@ -9,6 +9,8 @@ TagManager:
   - Settings
   - Menu
   - Missle
+  - FxTemporaire
+  - Target
   layers:
   - Default
   - TransparentFX
