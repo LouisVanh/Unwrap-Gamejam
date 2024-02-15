@@ -44,6 +44,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56588c6cd9ea4bf4c9a9a7ef7d3e7335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _radius: 1500
-  _amountOfMissles: 30
+  _radius: 1000
+  _amountOfMissles: 50
   _missle: {fileID: 7686761020363160816, guid: 4feb0e6b4abebbf42ae957f92a7d7859, type: 3}
