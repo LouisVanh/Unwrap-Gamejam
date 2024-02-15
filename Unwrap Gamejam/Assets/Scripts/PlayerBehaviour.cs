@@ -32,7 +32,7 @@ public class PlayerBehaviour : MonoBehaviour
     public bool IsOn = true;
     private bool _engineOn = true;
     private float _cruiseSpeed = 110;
-    private float _fuelBurnRate = -5;
+    private float _fuelBurnRate = -3.5f;
     private bool _reachedSpeed = false;
     private float _moveY;
     private float _moveX;
