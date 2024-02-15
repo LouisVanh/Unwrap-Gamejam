@@ -39,7 +39,7 @@ public class PlayerBehaviour : MonoBehaviour
     private float _moveX;
     [SerializeField] private float _mouseSensitivity = 30f;
     private Vector3 _aplhaRotation;
-    public float _sizeMultiplier;
+    public float SizeMultiplier;
     public Vector3 _originScale;
 
     private event EventHandler PlaySuperSpeedParticle;
@@ -206,9 +206,9 @@ public class PlayerBehaviour : MonoBehaviour
     }
     private void IncreasePayload()
     {
-        _sizeMultiplier = _payload / 200;
+        SizeMultiplier = _payload / 200;
         Vector3 multiplier = new Vector3(_originScale.x / 10, _originScale.y / 10, _originScale.z / 10);
         transform.localScale += multiplier;
-        _trailVFX.transform.localScale += new Vector3(_sizeMultiplier, _sizeMultiplier, _sizeMultiplier);
+        _trailVFX.transform.localScale += new Vector3(SizeMultiplier, SizeMultiplier, SizeMultiplier);
     }
 }

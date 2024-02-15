@@ -42,6 +42,11 @@ public class AudioManager : MonoBehaviour
 
     public void LoadSliders()
     {
+        if (SceneManager.GetActiveScene() != SceneManager.GetSceneByBuildIndex(0))
+        {
+            MainVolumeSlider = FindObjectOfType<UI_Script>()._slider;
+        }
+
         if (PlayerPrefs.HasKey("mainVolume"))
         {
             MainVolumeSlider.value = PlayerPrefs.GetFloat("mainVolume");
