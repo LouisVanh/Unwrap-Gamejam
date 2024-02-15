@@ -12,6 +12,7 @@ public class HomingMissle : MonoBehaviour
     private Vector3 _heading;
     private Quaternion _rotation;
     [SerializeField] private GameObject _explosionVFX;
+    [SerializeField] private GameObject _mesh;
     private GameObject _explosion;
     private bool _foundPlayer;
     void Start()
@@ -23,6 +24,7 @@ public class HomingMissle : MonoBehaviour
 
     void Update()
     {
+        _mesh.transform.Rotate(0, 0, 140 * Time.deltaTime);
         if (_player == null)
         {
             _player = GameObject.Find("Player");

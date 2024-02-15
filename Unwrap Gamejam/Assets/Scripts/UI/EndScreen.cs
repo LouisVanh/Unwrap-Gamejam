@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class EndScreen : MonoBehaviour
 {
     [SerializeField] Text _score;
+    [SerializeField,Range(0f,20f)] float _EndScreenDelay = 0f;
 
     // Start is called before the first frame update
     void Start()
@@ -35,6 +36,12 @@ public class EndScreen : MonoBehaviour
 
     private void EnableEndScreen()
     {
+       StartCoroutine(EnableEndscreenDelayed());
+    }
+
+    private IEnumerator EnableEndscreenDelayed()
+    {
+        yield return new WaitForSeconds(_EndScreenDelay);
         GetComponent<Canvas>().enabled = true;
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
