@@ -35,13 +35,13 @@ public class PickupComponent : MonoBehaviour
         {
             case PickupType.Fuel:
                 OnAddFuel?.Invoke(_value);
-                _audioSource = GameObject.Find("PickupAudio").GetComponent<AudioSource>();
+                _audioSource = GameObject.Find("PickupSound").GetComponent<AudioSource>();
                 _audioSource.Play();
                 //Debug.Log("Fuel is added");
                 break;
             case PickupType.Payload:
                 OnAddPayload?.Invoke(_value);
-                _audioSource = GameObject.Find("PickupAudio").GetComponent<AudioSource>();
+                _audioSource = GameObject.Find("PickupSound").GetComponent<AudioSource>();
                 _audioSource.Play();
                 //Debug.Log("payload is added");
                 break;
