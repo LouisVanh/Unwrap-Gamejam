@@ -9,15 +9,23 @@ public class HomingMissleSpawner : MonoBehaviour
     [SerializeField] private float _amountOfMissles = 5;
     [SerializeField] private GameObject _missle;
     private float _minHeightOffset = 100;
+    private bool _spawned = false;
+    private float _timer;
     void Start()
     {
-        SpawnMissles();
+       
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        _timer += Time.deltaTime;
+        Debug.Log(_timer);
+        if(_timer > 5 && !_spawned)
+        {
+            SpawnMissles();
+            _spawned = true;
+        }
     }
     private void SpawnMissles()
     {
