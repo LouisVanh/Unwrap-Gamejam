@@ -29,7 +29,7 @@ public class RandomisePoint : MonoBehaviour
             // Get the random object from the list
             Transform randompoint = _spawnPositions[randomIndex];
 
-            //Debug.Log(randompoint.name);
+            Debug.Log(randompoint.name);
 
             var spawnedObject = Instantiate(_spawnObject, randompoint.position, randompoint.rotation);
 

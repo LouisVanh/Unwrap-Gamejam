@@ -20,7 +20,7 @@ public class HomingMissleSpawner : MonoBehaviour
     void Update()
     {
         _timer += Time.deltaTime;
-        //Debug.Log(_timer);
+        Debug.Log(_timer);
         if(_timer > 5 && !_spawned)
         {
             SpawnMissles();
